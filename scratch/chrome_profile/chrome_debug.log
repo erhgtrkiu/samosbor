@@ -1,0 +1,1154 @@
+[8932:27000:0603/181311.646:VERBOSE1:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:121] DM token = empty
+[8932:27000:0603/181311.646:VERBOSE1:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:127] Enrollment token = 
+[8932:27000:0603/181311.646:VERBOSE1:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:128] Client ID = efa7a0cb-19ac-4695-beb2-89d91401f6b2
+[8932:27000:0603/181311.648:VERBOSE1:components\variations\service\variations_field_trial_creator.cc:77] VariationsSeedUsage:2
+[8932:27000:0603/181311.649:VERBOSE1:components\variations\service\variations_field_trial_creator.cc:374] VariationsSetupComplete
+[8932:27000:0603/181311.698:VERBOSE1:chrome\browser\media\webrtc\webrtc_event_log_manager.cc:122] WebRTC remote-bound event logging enabled.
+[8932:27000:0603/181311.698:VERBOSE1:components\proxy_config\pref_proxy_config_tracker_impl.cc:462] 0x50d400108340: set chrome proxy config service to 0x50d40016c1c0
+[8932:27000:0603/181311.705:VERBOSE1:components\device_event_log\device_event_log_impl.cc:204] [18:13:11.703] Display: EVENT: screen_win.cc:1092 Displays updated, count: 1
+[8932:27000:0603/181311.705:VERBOSE1:components\device_event_log\device_event_log_impl.cc:204] [18:13:11.706] Display: EVENT: screen_win.cc:1094 Display[1] bounds=[0,0 800x600], workarea=[0,0 800x600], scale=1, rotation=0, panel_rotation=0 external detected
+[8932:27000:0603/181311.716:VERBOSE1:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:210] Starting CBCM Controller Initialization
+[8932:27000:0603/181311.716:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:238] No machine level policy manager exists.
+[8932:27000:0603/181311.716:VERBOSE1:chrome\installer\util\install_util.cc:218] Existing Chrome version found: 148.0.7778.217
+[8932:27000:0603/181311.717:VERBOSE1:chrome\browser\enterprise\platform_auth\platform_auth_policy_observer.cc:108] PlatformAuthProviderManager enabled: 0
+[8932:27000:0603/181311.719:VERBOSE1:components\policy\core\common\cloud\user_cloud_policy_store.cc:130] [policy_type=google/chrome/user] Initiating immediate policy load from disk
+[8932:27000:0603/181311.719:VERBOSE1:components\policy\core\common\cloud\user_cloud_policy_store.cc:233] [policy_type=google/chrome/user] No policy found on disk
+[8932:27000:0603/181311.731:VERBOSE1:components\proxy_config\pref_proxy_config_tracker_impl.cc:462] 0x50d40010c100: set chrome proxy config service to 0x50d40016ea00
+[8932:27000:0603/181311.732:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:353] MutablePO2TS::MutablePO2TS
+[8932:27000:0603/181311.733:VERBOSE1:components\proxy_config\pref_proxy_config_tracker_impl.cc:462] 0x50d40010db00: set chrome proxy config service to 0x50d40016e4c0
+[8932:27000:0603/181311.733:VERBOSE1:components\device_event_log\device_event_log_impl.cc:204] [18:13:11.733] Bluetooth: EVENT: bluetooth_api.cc:82 BluetoothAPI: 0x50d4001269c0
+[8932:27000:0603/181311.733:VERBOSE1:chrome\browser\permissions\prediction_service\prediction_model_handler_provider_factory.cc:61] [PermissionsAI]: PredictionModelHandlerProviderFactory::BuildServiceInstanceForBrowserContext
+[8932:27000:0603/181311.733:VERBOSE1:chrome\browser\permissions\prediction_service\prediction_model_handler_provider_factory.cc:98] [PermissionsAI]: PredictionModelHandlerProviderFactory::BuildServiceInstanceForBrowserContext PermissionsAIv4 not enabled, passage embedder not setup.
+[8932:27000:0603/181311.733:VERBOSE1:chrome\browser\permissions\prediction_service\prediction_model_handler_provider.cc:55] [PermissionsAI] PredictionModelHandlerProvider ctor passage_embedder available: false
+[8932:27000:0603/181311.733:VERBOSE1:chrome\browser\permissions\prediction_service\prediction_model_handler_provider.cc:58] [PermissionsAI] PredictionModelHandlerProvider ctor optimization_guide available: true
+[8932:27000:0603/181311.735:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[8932:27000:0603/181311.735:VERBOSE1:extensions\browser\api\bluetooth_low_energy\bluetooth_low_energy_event_router.cc:292] Initializing BluetoothLowEnergyEventRouter.
+[8932:3916:0603/181311.735:VERBOSE1:net\disk_cache\simple\simple_index_file.cc:609] Simple Cache Index is being restored from disk.
+[8932:27000:0603/181311.736:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[8932:27000:0603/181311.736:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[8932:27000:0603/181311.736:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:149] AccountReconcilor::AccountReconcilor
+[8932:27000:0603/181311.736:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:179] AccountReconcilor::Initialize
+[8932:27000:0603/181311.736:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:230] AccountReconcilor::RegisterWithContentSettings
+[8932:27000:0603/181311.736:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:253] AccountReconcilor::RegisterWithIdentityManager
+[8932:27000:0603/181311.739:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[8932:29508:0603/181311.740:VERBOSE1:components\signin\public\webdata\token_service_table.cc:259] Loaded tokens: result = 3 ; number of tokens loaded = 0
+[8932:27000:0603/181311.742:VERBOSE1:extensions\browser\extension_registrar.cc:547] AddComponentExtension Интернет-магазин Chrome
+[8932:27000:0603/181311.742:VERBOSE1:extensions\browser\extension_registrar.cc:549] Component extension Интернет-магазин Chrome (ahfgeienlihckogmohjhadlkjgocpleb) installing/upgrading from '' to 0.2
+[8932:27000:0603/181311.742:VERBOSE1:extensions\browser\extension_registrar.cc:547] AddComponentExtension Chrome PDF Viewer
+[8932:27000:0603/181311.742:VERBOSE1:extensions\browser\extension_registrar.cc:549] Component extension Chrome PDF Viewer (mhjfbmdgcfjbbpaeojofohoefgiehjai) installing/upgrading from '' to 1
+[8932:27000:0603/181311.743:VERBOSE1:extensions\browser\extension_registrar.cc:547] AddComponentExtension Google Hangouts
+[8932:27000:0603/181311.743:VERBOSE1:extensions\browser\extension_registrar.cc:549] Component extension Google Hangouts (nkeimhogjdpnpccoofpliimaahmaaome) installing/upgrading from '' to 1.3.26
+[8932:27000:0603/181311.743:VERBOSE1:extensions\browser\extension_registrar.cc:547] AddComponentExtension Google Network Speech
+[8932:27000:0603/181311.743:VERBOSE1:extensions\browser\extension_registrar.cc:549] Component extension Google Network Speech (fignfifoniblkonapihmkfakmlgkbkcf) installing/upgrading from '' to 1.0
+[8932:27000:0603/181311.745:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[8932:27000:0603/181311.745:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[8932:22136:0603/181311.746:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Chrome Improved Recovery
+[8932:27000:0603/181311.746:VERBOSE1:components\component_updater\installer_policies\on_device_head_suggest_component_installer.cc:59] On Device Head Component will fetch model for locale: RU500000
+[8932:28308:0603/181311.746:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Widevine Content Decryption Module
+[8932:27000:0603/181311.746:VERBOSE1:chrome\browser\component_updater\trust_token_key_commitments_component_installer.cc:22] Registering Trust Token Key Commitments component.
+[8932:27000:0603/181311.747:VERBOSE1:chrome\browser\component_updater\first_party_sets_component_installer.cc:37] Registering Related Website Sets component.
+[8932:25172:0603/181311.747:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Subresource Filter Rules
+[8932:27000:0603/181311.747:VERBOSE1:chrome\browser\component_updater\privacy_sandbox_attestations_component_installer.cc:181] Registering Privacy Sandbox Attestations component
+[8932:27000:0603/181311.747:VERBOSE1:chrome\browser\component_updater\file_type_policies_component_installer.cc:126] Registering File Type Policies component.
+[8932:7432:0603/181311.747:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Privacy Sandbox Attestations
+[8932:27000:0603/181311.747:VERBOSE1:chrome\browser\component_updater\hyphenation_component_installer.cc:148] Registering Hyphenation component.
+[8932:27000:0603/181311.747:VERBOSE1:components\component_updater\installer_policies\actor_safety_lists_component_installer.cc:141] Registering Actor Safety Lists Component.
+[8932:22136:0603/181311.747:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for OnDeviceHeadSuggest
+[8932:12920:0603/181311.747:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Optimization Hints
+[8932:27000:0603/181311.747:VERBOSE1:chrome\browser\component_updater\translate_kit_component_installer.cc:210] Registering TranslateKit component.
+[8932:8868:0603/181311.747:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Certificate Error Assistant
+[8932:29508:0603/181311.747:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Trust Token Key Commitments
+[8932:27000:0603/181311.747:VERBOSE1:chrome\browser\component_updater\wasm_tts_engine_component_installer.cc:286] Registering WASM TTS Engine component.
+[8932:27000:0603/181311.747:VERBOSE1:chrome\browser\component_updater\captcha_provider_component_installer.cc:175] Registering Captcha Provider component.
+[8932:25172:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for File Type Policies
+[8932:8868:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for CRLSet
+[8932:12920:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Origin Trials
+[8932:23876:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for MEI Preload
+[8932:22136:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for PKI Metadata
+[8932:29508:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Safety Tips
+[8932:27000:0603/181311.748:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kBrowserWindow). keep_alives=[kWaitingForFirstBrowserWindow (1), kBrowserWindow (1)]
+[8932:27000:0603/181311.748:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1490] ClearFirstBrowserWindowKeepAlive(Default). keep_alives=[kBrowserWindow (1)]
+[8932:12920:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Crowd Deny
+[8932:22136:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Zxcvbn Data Dictionaries
+[8932:25172:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Hyphenation
+[8932:28308:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:312] Preinstalled component found for Widevine Content Decryption Module at C:\Program Files\Google\Chrome\Application\148.0.7778.217\WidevineCdm with version 4.10.3050.0.
+[8932:10016:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Actor Safety Lists
+[8932:29508:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Amount Extraction Heuristic Regexes
+[8932:12920:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Captcha Providers
+[8932:7432:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:312] Preinstalled component found for Privacy Sandbox Attestations at C:\Program Files\Google\Chrome\Application\148.0.7778.217\PrivacySandboxAttestationsPreloaded with version 2025.7.18.0.
+[8932:8868:0603/181311.748:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for WASM TTS Engine
+[8932:23876:0603/181311.751:VERBOSE1:components\component_updater\component_installer.cc:312] Preinstalled component found for MEI Preload at C:\Program Files\Google\Chrome\Application\148.0.7778.217\MEIPreload with version 1.0.7.1652906823.
+[8932:27540:0603/181311.755:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:944] OnFetchComplete ahfgeienlihckogmohjhadlkjgocpleb success:0
+[8932:27540:0603/181311.756:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:944] OnFetchComplete mhjfbmdgcfjbbpaeojofohoefgiehjai success:0
+[8932:27540:0603/181311.756:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:944] OnFetchComplete nkeimhogjdpnpccoofpliimaahmaaome success:0
+[8932:27540:0603/181311.756:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:944] OnFetchComplete fignfifoniblkonapihmkfakmlgkbkcf success:0
+[8932:24076:0603/181311.756:WARNING:chrome\browser\extensions\external_pref_loader.cc:294] You are using an old-style extension deployment method (external_extensions.json), which will soon be deprecated. (see http://developer.chrome.com/docs/extensions/how-to/distribute/install-extensions)
+[2164:28820:0603/181311.798:ERROR:ui\gl\direct_composition_support.cc:243] GetGpuDriverOverlayInfo: Failed to retrieve video device
+[2164:28820:0603/181311.799:VERBOSE1:components\viz\service\main\viz_main_impl.cc:87] VizNullHypothesis is disabled (not a warning)
+[8932:27000:0603/181311.805:VERBOSE1:chrome\browser\ui\views\omnibox\omnibox_popup_closer.cc:65] Closing omnibox popup with reason: kRevertAll
+[8932:27000:0603/181311.805:VERBOSE1:chrome\browser\ui\views\omnibox\omnibox_popup_closer.cc:65] Closing omnibox popup with reason: kBrowserWidgetMoved
+[8932:27000:0603/181311.822:VERBOSE1:chrome\browser\enterprise\data_protection\data_protection_navigation_observer.cc:222] enterprise.data_protection: same document navigation: 0
+[8932:27000:0603/181311.822:VERBOSE1:chrome\browser\enterprise\data_protection\data_protection_navigation_observer.cc:224] enterprise.data_protection: URL to scan: http://localhost:8080/index.html
+[8932:27000:0603/181311.822:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[8932:27000:0603/181311.832:VERBOSE1:chrome\browser\ui\views\omnibox\omnibox_popup_closer.cc:65] Closing omnibox popup with reason: kRevertAll
+[8932:27000:0603/181311.839:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[7556:29772:0603/181311.842:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 12
+[10588:26160:0603/181311.843:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 12
+[4180:360:0603/181311.843:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: http://clients2.google.com/time/1/current?cup2key=10:4R-L0Ce_rCOFE3cL6KJhAuQoXzaOhyMZM3SOBB3h-Ew&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[8932:27000:0603/181311.845:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:599] MutablePO2TS::OnWebDataServiceRequestDone. Result type: 6
+[8932:27000:0603/181311.845:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:661] MutablePO2TS::LoadAllCredentialsIntoMemory; 0 credential(s).
+[8932:27000:0603/181311.845:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[8932:27000:0603/181311.845:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[8932:27000:0603/181311.845:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[8932:27000:0603/181311.845:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[8932:27000:0603/181311.845:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[8932:27000:0603/181311.845:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:338] AccountReconcilor::OnEndBatchOfRefreshTokenStateChanges. Reconcilor state: 1
+[4180:360:0603/181311.846:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:8080/index.html
+[8932:27000:0603/181311.851:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[8932:27000:0603/181311.854:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Chrome Improved Recovery
+[4180:360:0603/181311.855:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://safebrowsingohttpgateway.googleapis.com/v1/ohttp/hpkekeyconfig?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_updater_service.cc:169] CrxUpdateService starting up. First update attempt will take place in 60 s seconds. Next update attempt will take place in 18000 s seconds. 
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Subresource Filter Rules
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Certificate Error Assistant
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Optimization Hints
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for OnDeviceHeadSuggest
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Trust Token Key Commitments
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Origin Trials
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for File Type Policies
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for CRLSet
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for PKI Metadata
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Safety Tips
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Crowd Deny
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Zxcvbn Data Dictionaries
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Hyphenation
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Amount Extraction Heuristic Regexes
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Widevine Content Decryption Module
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:597] Component ready, version 4.10.3050.0 in C:\Program Files\Google\Chrome\Application\148.0.7778.217\WidevineCdm
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Privacy Sandbox Attestations
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:597] Component ready, version 2025.7.18.0 in C:\Program Files\Google\Chrome\Application\148.0.7778.217\PrivacySandboxAttestationsPreloaded
+[8932:27000:0603/181311.855:VERBOSE1:chrome\browser\component_updater\privacy_sandbox_attestations_component_installer.cc:111] Privacy Sandbox Attestations Component ready, version 2025.7.18.0 in C:\Program Files\Google\Chrome\Application\148.0.7778.217\PrivacySandboxAttestationsPreloaded
+[8932:27000:0603/181311.855:VERBOSE1:chrome\browser\component_updater\privacy_sandbox_attestations_component_installer.cc:188] Received privacy sandbox attestations file
+[8932:27000:0603/181311.855:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for WASM TTS Engine
+[8932:27000:0603/181311.857:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for MEI Preload
+[8932:27000:0603/181311.857:VERBOSE1:components\component_updater\component_installer.cc:597] Component ready, version 1.0.7.1652906823 in C:\Program Files\Google\Chrome\Application\148.0.7778.217\MEIPreload
+[8932:27000:0603/181311.857:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Actor Safety Lists
+[8932:27000:0603/181311.857:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Captcha Providers
+[8932:27000:0603/181311.857:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kExtensionUpdater). keep_alives=[kBrowserWindow (1), kExtensionUpdater (1)]
+[4180:360:0603/181311.857:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&prod=chromecrx&prodchannel=&prodversion=148.0.7778.217&lang=ru&acceptformat=crx3,puff&x=id%3Dghbmnnjooekpmoecnnnilnnbdlolhkhi%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D0.0.0.0%26installedby%3Dother%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Doombnmpbbhbakfpfgdflaajkhicgfaam%26v%3D0.0.0.0%26installedby%3Dexternal%26uc%26ping%3Dr%253D-1%2526e%253D1
+[8932:27000:0603/181311.857:VERBOSE1:chrome\browser\local_discovery\service_discovery_device_lister.cc:36] DeviceListerStart: service_type: _googlecast._tcp.local
+[8932:27000:0603/181311.857:VERBOSE1:chrome\browser\local_discovery\service_discovery_device_lister.cc:42] DiscoverNewDevices: service_type: _googlecast._tcp.local
+[4180:360:0603/181311.858:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard&laf=b64bin
+[4180:360:0603/181311.858:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=148
+[4180:360:0603/181311.860:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://www.google.com/async/folae?async=_fmt:pb&udm=50&client_locale=ru
+[8932:27000:0603/181311.865:VERBOSE1:chrome\browser\component_updater\widevine_cdm_component_installer.cc:94] Registering Widevine CDM 4.10.3050.0 with Chrome
+[8932:27000:0603/181311.865:VERBOSE1:components\privacy_sandbox\privacy_sandbox_attestations\privacy_sandbox_attestations.cc:480] Parsed Privacy Sandbox Attestation list version: 2025.7.18.0
+[8932:27000:0603/181311.865:VERBOSE1:components\privacy_sandbox\privacy_sandbox_attestations\privacy_sandbox_attestations.cc:482] Number of attestation entries: 263
+[8932:27000:0603/181311.868:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for Start@chrome\browser\web_applications\generated_icon_fix_manager.cc:61
+[8932:27000:0603/181311.868:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for Start@chrome\browser\web_applications\generated_icon_fix_manager.cc:61
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing Session.TotalDuration
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing Commerce.PriceDrops.ActiveTabNavigationComplete.IsProductDetailPage
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:54] Segmentation platform started observing Autofill_PolledCreditCardSuggestions
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing IOS.ParcelTracking.Tracked.AutoTrack
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing Omnibox.SuggestionUsed.ClientSummarizedResultType
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:54] Segmentation platform started observing MetadataWriter
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing Sync.DeviceCount2
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing Sync.DeviceCount2.Phone
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing Sync.DeviceCount2.Desktop
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing Sync.DeviceCount2.Tablet
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:54] Segmentation platform started observing MobileBookmarkManagerOpen
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:54] Segmentation platform started observing NewTabPage.MostVisited.Clicked
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:54] Segmentation platform started observing TabGroup.Created.OpenInNewTab
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:54] Segmentation platform started observing Android.HistoryPage.OpenItem
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:54] Segmentation platform started observing MobileMenuRecentTabs
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing PasswordManager.ManagePasswordsReferrer
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing PasswordManager.ProfileStore.TotalAccountsHiRes3.WithScheme.Https
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing PasswordManager.FillingAssistance
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing PasswordManager.SavedPasswordIsGenerated
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing PasswordManager.SaveUIDismissalReason
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing PasswordManager.SaveUIDismissalReason
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing IOS.CredentialExtension.IsEnabled.Startup
+[8932:27000:0603/181311.871:VERBOSE1:components\segmentation_platform\internal\signals\signal_filter_processor.cc:61] Segmentation platform started observing Session.TotalDuration
+[8932:27000:0603/181311.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by Start@chrome\browser\web_applications\generated_icon_fix_manager.cc:61
+[8932:27000:0603/181311.873:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[22748:28816:0603/181311.895:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 12
+[4180:360:0603/181311.897:VERBOSE1:net\proxy_resolution\configured_proxy_resolution_service.cc:1223] Failed configuring with PAC script, falling-back to manual proxy servers.
+[13956:23916:0603/181311.898:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 12
+[4180:360:0603/181311.902:VERBOSE1:net\proxy_resolution\configured_proxy_resolution_service.cc:1223] Failed configuring with PAC script, falling-back to manual proxy servers.
+[24160:13104:0603/181311.903:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 12
+[4180:360:0603/181311.903:VERBOSE1:net\proxy_resolution\configured_proxy_resolution_service.cc:1223] Failed configuring with PAC script, falling-back to manual proxy servers.
+[4180:360:0603/181311.914:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Fira+Mono:wght@400;700&display=swap
+[4180:360:0603/181311.914:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js
+[4180:360:0603/181311.915:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://yandex.ru/games/sdk/v2
+[4180:360:0603/181311.915:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:8080/index.css
+[4180:360:0603/181311.915:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:8080/app.js
+[7556:29772:0603/181311.916:VERBOSE1:extensions\renderer\script_context.cc:150] Created context:
+  extension id:           (none)
+  frame:                  0x28fc020304e8
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[7556:29772:0603/181311.917:VERBOSE1:extensions\renderer\script_context.cc:150] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[7556:29772:0603/181311.917:VERBOSE1:extensions\renderer\dispatcher.cc:493] Num tracked contexts: 1
+[13956:23916:0603/181311.925:VERBOSE1:extensions\renderer\script_context.cc:150] Created context:
+  extension id:           nkeimhogjdpnpccoofpliimaahmaaome
+  frame:                  0x57b4020304e8
+  URL:                    
+  context_type:           BLESSED_EXTENSION
+  effective extension id: nkeimhogjdpnpccoofpliimaahmaaome
+  effective context type: BLESSED_EXTENSION
+[13956:23916:0603/181311.925:VERBOSE1:extensions\renderer\script_context.cc:150] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[13956:23916:0603/181311.926:VERBOSE1:extensions\renderer\dispatcher.cc:493] Num tracked contexts: 1
+[22748:23984:0603/181311.929:VERBOSE1:extensions\renderer\script_context.cc:150] Created context:
+  extension id:           fignfifoniblkonapihmkfakmlgkbkcf
+  frame:                  (nil)
+  URL:                    
+  context_type:           BLESSED_EXTENSION
+  effective extension id: fignfifoniblkonapihmkfakmlgkbkcf
+  effective context type: BLESSED_EXTENSION
+[22748:23984:0603/181311.929:VERBOSE1:extensions\renderer\script_context.cc:150] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[4180:360:0603/181311.942:VERBOSE1:net\third_party\quiche\src\quiche\quic\core\tls_handshaker.cc:109] TlsClient: Continuing handshake
+[4180:360:0603/181311.963:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://fonts.gstatic.com/s/firamono/v16/N0bX2SlFPv1weGeLZDtgJv7S.woff2
+[4180:360:0603/181311.966:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2
+[4180:360:0603/181311.974:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://fonts.gstatic.com/s/firamono/v16/N0bX2SlFPv1weGeLZDtgIv7SodY.woff2
+[8932:27000:0603/181311.983:INFO:CONSOLE:1] "Uncaught (in promise) Error: No parent to post message", source: https://yandex.ru/games/sdk/v2 (1)
+[8932:27000:0603/181311.983:INFO:CONSOLE:1] "Uncaught (in promise) Error: No parent to post message", source: https://yandex.ru/games/sdk/v2 (1)
+[8932:27000:0603/181311.983:INFO:CONSOLE:1] "Uncaught (in promise) Error: No parent to post message", source: https://yandex.ru/games/sdk/v2 (1)
+[8932:27000:0603/181311.984:INFO:CONSOLE:4345] "Initializing Yandex Games SDK...", source: http://localhost:8080/app.js (4345)
+[4180:360:0603/181311.987:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTQ4LjAuNzc3OC4yMTcSGQnfdowcFg_r0xIFDaJVpxohReXDtG6jf0A=?alt=proto
+[8932:27000:0603/181311.987:INFO:CONSOLE:1] "Error: No parent to post message", source: https://yandex.ru/games/sdk/v2 (1)
+[8932:27000:0603/181311.989:INFO:CONSOLE:0] "Error: No parent to post message", source:  (0)
+[4180:360:0603/181311.989:VERBOSE1:net\third_party\quiche\src\quiche\quic\core\tls_handshaker.cc:109] TlsClient: Continuing handshake
+[8932:27000:0603/181311.989:INFO:CONSOLE:1] "Error: Can not get appId from environment", source: https://yandex.ru/games/sdk/v2 (1)
+[4180:360:0603/181311.989:VERBOSE1:net\third_party\quiche\src\quiche\quic\core\tls_handshaker.cc:109] TlsClient: Continuing handshake
+[4180:360:0603/181311.989:VERBOSE1:net\third_party\quiche\src\quiche\quic\core\tls_handshaker.cc:109] TlsClient: Continuing handshake
+[4180:360:0603/181311.989:VERBOSE1:net\third_party\quiche\src\quiche\quic\core\tls_handshaker.cc:109] TlsClient: Continuing handshake
+[8932:27000:0603/181311.989:INFO:CONSOLE:1] "Error: SDK environment: `window.YandexGamesSDKEnvironment` is undefined", source: https://yandex.ru/games/sdk/v2 (1)
+[8932:27000:0603/181311.989:INFO:CONSOLE:0] "Error: No parent to post message", source:  (0)
+[8932:27000:0603/181311.989:INFO:CONSOLE:0] "Error: No parent to post message", source:  (0)
+[8932:27000:0603/181311.989:INFO:CONSOLE:0] "Error: No parent to post message", source:  (0)
+[8932:27000:0603/181311.989:INFO:CONSOLE:4393] "Yandex Games SDK successfully initialized.", source: http://localhost:8080/app.js (4393)
+[4180:360:0603/181311.990:VERBOSE1:net\third_party\quiche\src\quiche\quic\core\tls_handshaker.cc:109] TlsClient: Continuing handshake
+[8932:27000:0603/181311.990:INFO:CONSOLE:1] "Uncaught (in promise) Error: No parent to post message", source: https://yandex.ru/games/sdk/v2 (1)
+[8932:27000:0603/181311.990:INFO:CONSOLE:1] "Uncaught (in promise) Error: No parent to post message", source: https://yandex.ru/games/sdk/v2 (1)
+[8932:27000:0603/181311.990:INFO:CONSOLE:1] "Uncaught (in promise) Error: No parent to post message", source: https://yandex.ru/games/sdk/v2 (1)
+[8932:27000:0603/181311.990:INFO:CONSOLE:1] "Uncaught (in promise) Error: No parent to post message", source: https://yandex.ru/games/sdk/v2 (1)
+[8932:27000:0603/181311.990:INFO:CONSOLE:1] "Uncaught (in promise) Error: No parent to post message", source: https://yandex.ru/games/sdk/v2 (1)
+[4180:360:0603/181311.991:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:8080/favicon.ico
+[4180:360:0603/181312.047:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://clients2.googleusercontent.com/crx/blobs/AXJDbcA7-qvp7x7j_5QmmktTZ2YyNd3kU7eWGoNes-yTz0zj4fWyFlD-Vi_ngMpHdm_8woSV0_ojLaO96xzeFfVgoJD022kEWu-_knETVT9QF_3w4dY4DKgd6rElhsRelgcAxlKa5d02n9hxYZBm9sgkym3onVcyGxJJ/GHBMNNJOOEKPMOECNNNILNNBDLOLHKHI_1_106_1_0.crx
+[8932:27000:0603/181312.076:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:136] GetSegmentResult: segment=OPTIMIZATION_TARGET_SEGMENTATION_DEVICE_SWITCHER ignoring DB score, executing model.
+[8932:27000:0603/181312.076:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:277] ExecuteModelAndGetScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_DEVICE_SWITCHER server segment info not available
+[8932:27000:0603/181312.076:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:210] OnGotModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_DEVICE_SWITCHER failed to get database model score, trying default model.
+[8932:27000:0603/181312.128:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:559] AccountReconcilor::OnAccountsInCookieUpdated: CookieJar 0 accounts, Reconcilor's state is 1, Error was 
+[8932:27000:0603/181312.128:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:653] AccountReconcilor::LoadValidAccountsFromTokenService: Chrome 0 accounts
+[8932:27000:0603/181312.128:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:783] AccountReconcilor::CalculateIfMultiloginReconcileIsDone: Error was 
+[8932:27000:0603/181312.128:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:689] AccountReconcilor::StartReconcileIfChromeAccountsChanged
+[8932:27000:0603/181312.128:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:559] AccountReconcilor::OnAccountsInCookieUpdated: CookieJar 0 accounts, Reconcilor's state is 1, Error was 
+[8932:27000:0603/181312.128:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:653] AccountReconcilor::LoadValidAccountsFromTokenService: Chrome 0 accounts
+[8932:27000:0603/181312.128:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:783] AccountReconcilor::CalculateIfMultiloginReconcileIsDone: Error was 
+[8932:27000:0603/181312.128:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:689] AccountReconcilor::StartReconcileIfChromeAccountsChanged
+[8932:27000:0603/181312.432:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kExtensionUpdater). keep_alives=[kBrowserWindow (1), kExtensionUpdater (2)]
+[4180:360:0603/181312.432:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://clients2.googleusercontent.com/crx/blobs/AXJDbcAUxK2Sx2WyxQyvbE07U-EDfARzhUbsTWJLxOc1e6X5EGeS6yXS_V5OJvHLiraAKFKlTySEcUbFCI3q2NYsPbyK17duigPyiBRIN2cegsBdnnEu3C6yXyW8S5iKQHUAxlKa5b2hXH946hRbbeLZ8SQX_afnSx-E/OOMBNMPBBHBAKFPFGDFLAAJKHICGFAAM_1_2_0_0.crx
+[4180:360:0603/181312.433:VERBOSE1:net\third_party\quiche\src\quiche\quic\core\tls_handshaker.cc:109] TlsClient: Continuing handshake
+[8932:27000:0603/181312.672:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kExtensionUpdater). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3)]
+[4180:360:0603/181312.672:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: http://redirector.gvt1.com/edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzI0QUFXNV9zT2RvdUwyMERESEZGVmJnQQ/1.0.0.6_nmmhkkegccagdldgiimedpiccmgmieda.crx
+[2236:5312:0603/181312.707:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/'
+[2236:5312:0603/181312.707:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ar/'
+[2236:5312:0603/181312.708:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/bg/'
+[2236:5312:0603/181312.708:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ca/'
+[2236:5312:0603/181312.708:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/cs/'
+[2236:5312:0603/181312.708:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/da/'
+[2236:5312:0603/181312.708:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/de/'
+[2236:5312:0603/181312.708:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/el/'
+[2236:5312:0603/181312.708:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/en/'
+[2236:5312:0603/181312.708:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/es/'
+[2236:5312:0603/181312.708:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/es_419/'
+[2236:5312:0603/181312.708:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/et/'
+[2236:5312:0603/181312.708:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fi/'
+[2236:5312:0603/181312.710:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fr/'
+[2236:5312:0603/181312.710:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/he/'
+[2236:5312:0603/181312.710:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hr/'
+[2236:5312:0603/181312.710:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hu/'
+[2236:5312:0603/181312.710:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/id/'
+[2236:5312:0603/181312.710:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/it/'
+[2236:5312:0603/181312.711:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ja/'
+[2236:5312:0603/181312.711:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/kk/'
+[2236:5312:0603/181312.711:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ko/'
+[2236:5312:0603/181312.711:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/lt/'
+[2236:5312:0603/181312.711:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/lv/'
+[2236:5312:0603/181312.711:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/nb/'
+[2236:5312:0603/181312.711:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/nl/'
+[2236:5312:0603/181312.712:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pl/'
+[2236:5312:0603/181312.712:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pt_BR/'
+[2236:5312:0603/181312.712:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ro/'
+[2236:5312:0603/181312.712:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ru/'
+[2236:5312:0603/181312.712:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sk/'
+[2236:5312:0603/181312.712:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sl/'
+[2236:5312:0603/181312.712:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sr/'
+[2236:5312:0603/181312.712:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sv/'
+[2236:5312:0603/181312.712:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/th/'
+[2236:5312:0603/181312.713:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/tr/'
+[2236:5312:0603/181312.713:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/uk/'
+[2236:5312:0603/181312.713:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/vi/'
+[2236:5312:0603/181312.713:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zh_CN/'
+[2236:5312:0603/181312.713:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zh_TW/'
+[2236:5312:0603/181312.713:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/'
+[2236:5312:0603/181312.713:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/'
+[2236:5312:0603/181312.713:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/fonts/'
+[2236:5312:0603/181312.713:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/'
+[2236:5312:0603/181312.713:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/AllowAccessSection/'
+[2236:5312:0603/181312.715:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/BaseComponent/'
+[2236:5312:0603/181312.715:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/BrowserCleanupDataCheckboxes/'
+[2236:5312:0603/181312.715:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Button/'
+[2236:5312:0603/181312.715:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/CustomSelect/'
+[2236:5312:0603/181312.715:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/DataCollectionConsentDialog/'
+[2236:5312:0603/181312.715:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Footer/'
+[2236:5312:0603/181312.715:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Header/'
+[2236:5312:0603/181312.715:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Icon/'
+[2236:5312:0603/181312.716:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/PopupHeader/'
+[2236:5312:0603/181312.716:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/SiteSettingSelect/'
+[2236:5312:0603/181312.716:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/SiteSettingsReviewItem/'
+[2236:5312:0603/181312.716:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Tooltip/'
+[2236:5312:0603/181312.716:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/UrlTooltip/'
+[2236:5312:0603/181312.716:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/css/'
+[2236:5312:0603/181312.717:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/'
+[2236:5312:0603/181312.717:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/blockingPage/'
+[2236:5312:0603/181312.717:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/RegularCleanupSettings/'
+[2236:5312:0603/181312.718:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/websiteSecurityInspectorSetup/'
+[2236:5312:0603/181312.718:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/welcome/'
+[2236:5312:0603/181312.718:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/whatsNew/'
+[2236:5312:0603/181312.718:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/whatsNew/MainContent/'
+[2236:5312:0603/181312.718:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/'
+[2236:5312:0603/181312.718:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/'
+[2236:5312:0603/181312.718:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/assets/'
+[2236:5312:0603/181312.718:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/components/'
+[2236:5312:0603/181312.718:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/components/DetectionTooltip/'
+[2236:5312:0603/181312.718:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/components/Tooltip/'
+[2236:5312:0603/181312.719:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/utils/'
+[2236:5312:0603/181312.719:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/'
+[2236:5312:0603/181312.719:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/observers/'
+[2236:5312:0603/181312.719:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/scanners/'
+[2236:5312:0603/181312.719:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/'
+[2236:5312:0603/181312.719:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/'
+[2236:5312:0603/181312.720:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/components/'
+[2236:5312:0603/181312.720:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/components/InfoTooltip/'
+[2236:5312:0603/181312.721:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/components/StateIndicator/'
+[2236:5312:0603/181312.721:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/utils/'
+[2236:5312:0603/181312.721:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/'
+[2236:5312:0603/181312.721:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'secure-search/'
+[2236:5312:0603/181312.721:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'secure-search/styles/'
+[2236:5312:0603/181312.721:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ar/messages.json'
+[2236:5312:0603/181312.721:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/bg/messages.json'
+[2236:5312:0603/181312.722:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ca/messages.json'
+[2236:5312:0603/181312.722:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/cs/messages.json'
+[2236:5312:0603/181312.722:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/da/messages.json'
+[2236:5312:0603/181312.722:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/de/messages.json'
+[2236:5312:0603/181312.722:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/el/messages.json'
+[2236:5312:0603/181312.722:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/en/messages.json'
+[2236:5312:0603/181312.722:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/es_419/messages.json'
+[2236:5312:0603/181312.722:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/es/messages.json'
+[2236:5312:0603/181312.722:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/et/messages.json'
+[2236:5312:0603/181312.724:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fi/messages.json'
+[2236:5312:0603/181312.724:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fr/messages.json'
+[2236:5312:0603/181312.724:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/he/messages.json'
+[2236:5312:0603/181312.724:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hr/messages.json'
+[2236:5312:0603/181312.724:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hu/messages.json'
+[2236:5312:0603/181312.724:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/id/messages.json'
+[2236:5312:0603/181312.724:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/it/messages.json'
+[2236:5312:0603/181312.724:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ja/messages.json'
+[2236:5312:0603/181312.724:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/kk/messages.json'
+[2236:5312:0603/181312.724:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ko/messages.json'
+[2236:5312:0603/181312.725:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/lt/messages.json'
+[2236:5312:0603/181312.725:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/lv/messages.json'
+[2236:5312:0603/181312.725:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/nb/messages.json'
+[2236:5312:0603/181312.725:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/nl/messages.json'
+[2236:5312:0603/181312.725:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pl/messages.json'
+[2236:5312:0603/181312.725:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pt_BR/messages.json'
+[2236:5312:0603/181312.725:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ro/messages.json'
+[2236:5312:0603/181312.725:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ru/messages.json'
+[2236:5312:0603/181312.725:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sk/messages.json'
+[2236:5312:0603/181312.725:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sl/messages.json'
+[2236:5312:0603/181312.727:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sr/messages.json'
+[2236:5312:0603/181312.727:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sv/messages.json'
+[2236:5312:0603/181312.727:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/th/messages.json'
+[2236:5312:0603/181312.727:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/tr/messages.json'
+[2236:5312:0603/181312.727:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/uk/messages.json'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/vi/messages.json'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zh_CN/messages.json'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zh_TW/messages.json'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/aiConversationSecurity.html'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/aiConversationSecurity.js'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/alert_connection_lost.html'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/alert_expired_license.html'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/alert_missing_product.html'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/alert_unsupported_browser.html'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/alerts.js'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/ai-conversation-security-preview.png'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/chevron_right.svg'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/eset_logo.svg'
+[2236:5312:0603/181312.728:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/eset-logo.png'
+[2236:5312:0603/181312.730:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/eset-logo.svg'
+[2236:5312:0603/181312.730:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/eset-notif-logo.svg'
+[2236:5312:0603/181312.730:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/eset-settings-logo.svg'
+[2236:5312:0603/181312.730:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/fonts/Roboto-Regular.ttf'
+[2236:5312:0603/181312.730:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/icon_threat.svg'
+[2236:5312:0603/181312.730:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/icons.svg'
+[2236:5312:0603/181312.730:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/info-icon.svg'
+[2236:5312:0603/181312.731:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/landing-bg.svg'
+[2236:5312:0603/181312.731:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/loading-logo.svg'
+[2236:5312:0603/181312.731:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/loading-pp-logo.svg'
+[2236:5312:0603/181312.731:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/loading.png'
+[2236:5312:0603/181312.731:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/logo-128.png'
+[2236:5312:0603/181312.731:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/logo-16.png'
+[2236:5312:0603/181312.732:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/logo-32.png'
+[2236:5312:0603/181312.732:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/logo-48.png'
+[2236:5312:0603/181312.732:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/minus_icon.svg'
+[2236:5312:0603/181312.732:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/ok_bg.svg'
+[2236:5312:0603/181312.732:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/plus_icon.svg'
+[2236:5312:0603/181312.732:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/progress-icon.svg'
+[2236:5312:0603/181312.732:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/restart_bg.svg'
+[2236:5312:0603/181312.732:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/status_icon.svg'
+[2236:5312:0603/181312.732:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/status_ok.svg'
+[2236:5312:0603/181312.732:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/status_warning.svg'
+[2236:5312:0603/181312.733:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/website_setting_external_link.svg'
+[2236:5312:0603/181312.733:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/website-security-inspector-preview.png'
+[2236:5312:0603/181312.733:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/assets/x_close_icon.svg'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/browsingprivacy.html'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/browsingprivacy.js'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/AllowAccessSection/index.js'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/AllowAccessSection/style.css'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/BaseComponent/index.js'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/BrowserCleanupDataCheckboxes/index.js'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/BrowserCleanupDataCheckboxes/style.css'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Button/index.js'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Button/style.css'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/CustomSelect/index.js'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/CustomSelect/style.css'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/DataCollectionConsentDialog/index.js'
+[2236:5312:0603/181312.734:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/DataCollectionConsentDialog/style.css'
+[2236:5312:0603/181312.736:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Footer/index.js'
+[2236:5312:0603/181312.736:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Footer/style.css'
+[2236:5312:0603/181312.736:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Header/index.js'
+[2236:5312:0603/181312.736:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Header/style.css'
+[2236:5312:0603/181312.736:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Icon/index.js'
+[2236:5312:0603/181312.736:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/PopupHeader/index.js'
+[2236:5312:0603/181312.736:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/PopupHeader/style.css'
+[2236:5312:0603/181312.737:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/SiteSettingSelect/index.js'
+[2236:5312:0603/181312.737:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/SiteSettingsReviewItem/index.js'
+[2236:5312:0603/181312.737:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/SiteSettingsReviewItem/style.css'
+[2236:5312:0603/181312.737:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Tooltip/index.js'
+[2236:5312:0603/181312.737:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/Tooltip/style.css'
+[2236:5312:0603/181312.737:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/components/UrlTooltip/index.js'
+[2236:5312:0603/181312.737:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/css/infoPage.css'
+[2236:5312:0603/181312.737:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/css/loading.css'
+[2236:5312:0603/181312.737:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/css/notification.css'
+[2236:5312:0603/181312.739:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/css/popup.css'
+[2236:5312:0603/181312.739:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/css/settings.css'
+[2236:5312:0603/181312.739:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/exifcleaner.html'
+[2236:5312:0603/181312.739:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/exifcleaner.js'
+[2236:5312:0603/181312.739:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/header.js'
+[2236:5312:0603/181312.739:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/localize.js'
+[2236:5312:0603/181312.739:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/navbar.js'
+[2236:5312:0603/181312.739:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/navigation.js'
+[2236:5312:0603/181312.739:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/blockingPage/index.html'
+[2236:5312:0603/181312.739:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/blockingPage/index.js'
+[2236:5312:0603/181312.740:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/blockingPage/style.css'
+[2236:5312:0603/181312.740:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/RegularCleanupSettings/index.js'
+[2236:5312:0603/181312.740:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/RegularCleanupSettings/style.css'
+[2236:5312:0603/181312.740:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/websiteSecurityInspectorSetup/AllSetSection.js'
+[2236:5312:0603/181312.740:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/websiteSecurityInspectorSetup/AlmostDoneSection.js'
+[2236:5312:0603/181312.740:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/websiteSecurityInspectorSetup/index.html'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/websiteSecurityInspectorSetup/index.js'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/websiteSecurityInspectorSetup/MainContent.js'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/websiteSecurityInspectorSetup/style.css'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/welcome/FeatureTile.js'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/welcome/index.html'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/welcome/index.js'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/welcome/InfoTile.js'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/welcome/MainContent.js'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/welcome/style.css'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/whatsNew/index.html'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/whatsNew/index.js'
+[2236:5312:0603/181312.741:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/whatsNew/MainContent/index.js'
+[2236:5312:0603/181312.743:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/whatsNew/MainContent/style.css'
+[2236:5312:0603/181312.743:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/whatsNew/setup.js'
+[2236:5312:0603/181312.743:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/pages/whatsNew/style.css'
+[2236:5312:0603/181312.743:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/popup.html'
+[2236:5312:0603/181312.743:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/popup.js'
+[2236:5312:0603/181312.743:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/preload.js'
+[2236:5312:0603/181312.743:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/regular_cleanup_settings.html'
+[2236:5312:0603/181312.743:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/regularCleanupSettings.js'
+[2236:5312:0603/181312.743:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/securesearch.html'
+[2236:5312:0603/181312.743:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/securesearch.js'
+[2236:5312:0603/181312.745:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/settings.html'
+[2236:5312:0603/181312.745:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/settings.js'
+[2236:5312:0603/181312.745:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/websiteSecurityInspector.html'
+[2236:5312:0603/181312.745:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'action/websiteSecurityInspector.js'
+[2236:5312:0603/181312.745:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'background.js'
+[2236:5312:0603/181312.745:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'constants.js'
+[2236:5312:0603/181312.745:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScriptInjection.js'
+[2236:5312:0603/181312.745:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/assets/icon_eset.svg'
+[2236:5312:0603/181312.745:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/components/DetectionTooltip/index.js'
+[2236:5312:0603/181312.745:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/components/DetectionTooltip/style.js'
+[2236:5312:0603/181312.746:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/components/Tooltip/index.js'
+[2236:5312:0603/181312.746:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/components/Tooltip/style.js'
+[2236:5312:0603/181312.746:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/constants.js'
+[2236:5312:0603/181312.746:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/_shared/utils/createStyledShadowDom.js'
+[2236:5312:0603/181312.746:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/constants.js'
+[2236:5312:0603/181312.746:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/LLMScanManager.js'
+[2236:5312:0603/181312.747:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/observers/Base.js'
+[2236:5312:0603/181312.747:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/observers/ChatGPT.js'
+[2236:5312:0603/181312.747:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/observers/InteractionTracker.js'
+[2236:5312:0603/181312.748:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/QueueStore.js'
+[2236:5312:0603/181312.748:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/scanners/Base.js'
+[2236:5312:0603/181312.748:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/scanners/ScriptScanner.js'
+[2236:5312:0603/181312.748:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/scanners/UrlScanner.js'
+[2236:5312:0603/181312.748:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/close-button_dark-mode.svg'
+[2236:5312:0603/181312.748:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/close-button.svg'
+[2236:5312:0603/181312.748:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/default.svg'
+[2236:5312:0603/181312.748:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/detection_bad.svg'
+[2236:5312:0603/181312.748:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/detection_warning.svg'
+[2236:5312:0603/181312.748:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/eset-bps-logo.svg'
+[2236:5312:0603/181312.749:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/external-link_dark-mode.svg'
+[2236:5312:0603/181312.749:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/external-link.svg'
+[2236:5312:0603/181312.749:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/loader_arc.svg'
+[2236:5312:0603/181312.749:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/loader_frame_dark-mode.svg'
+[2236:5312:0603/181312.749:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/loader_frame.svg'
+[2236:5312:0603/181312.750:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/notifying_frame1_dark-mode.svg'
+[2236:5312:0603/181312.750:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/notifying_frame1.svg'
+[2236:5312:0603/181312.750:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/notifying_frame2_dark-mode.svg'
+[2236:5312:0603/181312.751:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/notifying_frame2.svg'
+[2236:5312:0603/181312.751:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/result_bad_dark-mode.svg'
+[2236:5312:0603/181312.751:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/result_bad.svg'
+[2236:5312:0603/181312.751:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/result_good_dark-mode.svg'
+[2236:5312:0603/181312.751:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/result_good.svg'
+[2236:5312:0603/181312.751:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/result_warn_dark-mode.svg'
+[2236:5312:0603/181312.752:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/assets/result_warn.svg'
+[2236:5312:0603/181312.752:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/components/InfoTooltip/index.js'
+[2236:5312:0603/181312.752:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/components/InfoTooltip/style.js'
+[2236:5312:0603/181312.752:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/components/StateIndicator/index.js'
+[2236:5312:0603/181312.752:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/components/StateIndicator/style.js'
+[2236:5312:0603/181312.752:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/GuiDrawer.js'
+[2236:5312:0603/181312.752:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/style.css'
+[2236:5312:0603/181312.752:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/ui/style.js'
+[2236:5312:0603/181312.752:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/utils/generateElementHash.js'
+[2236:5312:0603/181312.752:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'contentScripts/llmScan/utils/generateId.js'
+[2236:5312:0603/181312.754:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'iframe.js'
+[2236:5312:0603/181312.754:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/icon_eset.svg'
+[2236:5312:0603/181312.754:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/icon_ok.svg'
+[2236:5312:0603/181312.754:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/icon_threat.svg'
+[2236:5312:0603/181312.754:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/icon_warning.svg'
+[2236:5312:0603/181312.755:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'nativemsg.js'
+[2236:5312:0603/181312.755:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'notification.html'
+[2236:5312:0603/181312.755:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'notifications.js'
+[2236:5312:0603/181312.755:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'secure-search/b-search.js'
+[2236:5312:0603/181312.755:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'secure-search/common.js'
+[2236:5312:0603/181312.757:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'secure-search/g-search.js'
+[2236:5312:0603/181312.757:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'secure-search/styles/iconStyles.js'
+[2236:5312:0603/181312.757:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'secure-search/styles/popupStyles.js'
+[2236:5312:0603/181312.757:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'utils.js'
+[2236:5312:0603/181312.757:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'websiteScan.js'
+[2236:5312:0603/181312.757:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_metadata/'
+[2236:5312:0603/181312.758:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_metadata/verified_contents.json'
+[4180:360:0603/181312.782:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: http://r8---sn-cxauxaxjvh-hn9ee.gvt1.com/edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzI0QUFXNV9zT2RvdUwyMERESEZGVmJnQQ/1.0.0.6_nmmhkkegccagdldgiimedpiccmgmieda.crx?cms_redirect=yes&met=1780499592,&mh=e_&mip=37.214.71.21&mm=28&mn=sn-cxauxaxjvh-hn9ee&ms=nvh&mt=1780499297&mv=m&mvi=8&pl=21&rmhost=r12---sn-cxauxaxjvh-hn9ee.gvt1.com&rms=nvh,nvh&shardbypass=sd&smhost=r3---sn-cxauxaxjvh-hn9el.gvt1.com
+[8932:27000:0603/181312.883:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kExtensionUpdater). keep_alives=[kBrowserWindow (1), kExtensionUpdater (4)]
+[4180:360:0603/181312.960:VERBOSE1:net\third_party\quiche\src\quiche\quic\core\tls_handshaker.cc:109] TlsClient: Continuing handshake
+[17204:21180:0603/181313.041:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'manifest.json'
+[8932:27000:0603/181313.191:VERBOSE1:extensions\browser\install_signer.cc:349] Sending request: {"hash":"l/qHcmZkj/sMxSWhArWh7jcKqBfrrLDlil5lD9opCGY=","ids":["oombnmpbbhbakfpfgdflaajkhicgfaam"],"protocol_version":1}
+[4180:360:0603/181313.191:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://www.googleapis.com/chromewebstore/v1.1/items/verify
+[8932:27000:0603/181313.191:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1469] RemoveKeepAlive(Default, kExtensionUpdater). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3)]
+[4180:360:0603/181313.191:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://chromewebstore.googleapis.com/v2/items/oombnmpbbhbakfpfgdflaajkhicgfaam:fetchItemSnippet
+[8932:27000:0603/181313.861:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.861:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x61676862696168627061696a69676e6365696465706f6f6b6c6a65626866616b, partition: 1} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.861:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x6167696d6e6b696a636161686e6763646d6665616e67616b6e6d6c646f6f6d6c, partition: 1} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x6668696870696f6a6b626d6270646a656f616a61706d676b686c6e616b666a66, partition: 1} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x666d676a6a6d6d6d6c666e6b6270706e636162666b6464626a696d63666e636d, partition: 1} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x6b65666a6c65646f6e6b6c696a6f706d6e6f6d6c6362706c6c63686169626167, partition: 1} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x6d706e706f6a6b6e706d6d6f706f6d626e6a646367616169656b616a626e6a62, partition: 1} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x706f6d6d61636c6362666768636c68616c626f616b636970636d6d6e6468636a, partition: 1} for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.862:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:17548:0603/181313.862:VERBOSE1:chrome\installer\util\install_util.cc:218] Existing Chrome version found: 148.0.7778.217
+[8932:27000:0603/181313.863:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.863:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.863:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.863:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:17548:0603/181313.863:VERBOSE1:chrome\installer\util\install_util.cc:242] No existing Chrome install found.
+[8932:27000:0603/181313.863:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.863:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.863:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.866:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x61676862696168627061696a69676e6365696465706f6f6b6c6a65626866616b, partition: 1} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.866:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:318] Acquiring <PartitionedLockId>{id: 0x61676862696168627061696a69676e6365696465706f6f6b6c6a65626866616b, partition: 1} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.866:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.866:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.866:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3), kWebAppUpdate (1)]
+[8932:27000:0603/181313.866:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x61676862696168627061696a69676e6365696465706f6f6b6c6a65626866616b, partition: 1} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.866:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.866:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1469] RemoveKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3)]
+[8932:27000:0603/181313.867:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x6167696d6e6b696a636161686e6763646d6665616e67616b6e6d6c646f6f6d6c, partition: 1} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.867:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:318] Acquiring <PartitionedLockId>{id: 0x6167696d6e6b696a636161686e6763646d6665616e67616b6e6d6c646f6f6d6c, partition: 1} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.867:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.867:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.867:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3), kWebAppUpdate (1)]
+[8932:27000:0603/181313.867:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x6167696d6e6b696a636161686e6763646d6665616e67616b6e6d6c646f6f6d6c, partition: 1} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.867:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.867:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1469] RemoveKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3)]
+[8932:27000:0603/181313.868:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x6668696870696f6a6b626d6270646a656f616a61706d676b686c6e616b666a66, partition: 1} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.868:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:318] Acquiring <PartitionedLockId>{id: 0x6668696870696f6a6b626d6270646a656f616a61706d676b686c6e616b666a66, partition: 1} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.868:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.868:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.868:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3), kWebAppUpdate (1)]
+[8932:27000:0603/181313.868:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x6668696870696f6a6b626d6270646a656f616a61706d676b686c6e616b666a66, partition: 1} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.868:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.868:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1469] RemoveKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3)]
+[8932:27000:0603/181313.869:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x666d676a6a6d6d6d6c666e6b6270706e636162666b6464626a696d63666e636d, partition: 1} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.869:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:318] Acquiring <PartitionedLockId>{id: 0x666d676a6a6d6d6d6c666e6b6270706e636162666b6464626a696d63666e636d, partition: 1} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.869:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.869:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.869:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3), kWebAppUpdate (1)]
+[8932:27000:0603/181313.869:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x666d676a6a6d6d6d6c666e6b6270706e636162666b6464626a696d63666e636d, partition: 1} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.869:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.869:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1469] RemoveKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3)]
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x6b65666a6c65646f6e6b6c696a6f706d6e6f6d6c6362706c6c63686169626167, partition: 1} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:318] Acquiring <PartitionedLockId>{id: 0x6b65666a6c65646f6e6b6c696a6f706d6e6f6d6c6362706c6c63686169626167, partition: 1} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3), kWebAppUpdate (1)]
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x6b65666a6c65646f6e6b6c696a6f706d6e6f6d6c6362706c6c63686169626167, partition: 1} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1469] RemoveKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3)]
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x6d706e706f6a6b6e706d6d6f706f6d626e6a646367616169656b616a626e6a62, partition: 1} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:318] Acquiring <PartitionedLockId>{id: 0x6d706e706f6a6b6e706d6d6f706f6d626e6a646367616169656b616a626e6a62, partition: 1} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.871:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.871:ERROR:components\device_event_log\device_event_log_impl.cc:202] [18:13:13.872] USB: usb_service_win.cc:108 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Элемент не найден. (0x490)
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3), kWebAppUpdate (1)]
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x6d706e706f6a6b6e706d6d6f706f6d626e6a646367616169656b616a626e6a62, partition: 1} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1469] RemoveKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3)]
+[8932:30052:0603/181313.872:VERBOSE1:components\component_updater\component_installer.cc:477] StartRegistration for Related Website Sets
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x706f6d6d61636c6362666768636c68616c626f616b636970636d6d6e6468636a, partition: 1} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:318] Acquiring <PartitionedLockId>{id: 0x706f6d6d61636c6362666768636c68616c626f616b636970636d6d6e6468636a, partition: 1} for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by RunDiagnostics@chrome\browser\ui\web_applications\diagnostics\web_app_icon_health_checks.cc:64
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1408] AddKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3), kWebAppUpdate (1)]
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x706f6d6d61636c6362666768636c68616c626f616b636970636d6d6e6468636a, partition: 1} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by ApplyRunOnOsLoginPolicySettings@chrome\browser\web_applications\policy\web_app_policy_manager.cc:593
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:318] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for SynchronizeInstalledApps@chrome\browser\web_applications\externally_managed_app_manager.cc:186
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for SynchronizeInstalledApps@chrome\browser\web_applications\externally_managed_app_manager.cc:186
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1469] RemoveKeepAlive(Default, kWebAppUpdate). keep_alives=[kBrowserWindow (1), kExtensionUpdater (3)]
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by SynchronizeInstalledApps@chrome\browser\web_applications\externally_managed_app_manager.cc:186
+[8932:27000:0603/181313.872:VERBOSE1:components\component_updater\component_installer.cc:556] FinishRegistration for Related Website Sets
+[8932:27000:0603/181313.872:VERBOSE1:chrome\browser\component_updater\first_party_sets_component_installer.cc:42] Received Related Website Sets
+[8932:27000:0603/181313.877:VERBOSE1:chrome\browser\policy\cloud\fm_registration_token_uploader.cc:193] Client is missing for kUser scope
+[8932:27000:0603/181313.877:VERBOSE1:chrome\browser\policy\cloud\fm_registration_token_uploader.cc:193] Client is missing for kUser scope
+[4180:360:0603/181313.878:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://android.clients.google.com/c2dm/register3
+[8932:27000:0603/181313.880:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for SynchronizeInstalledApps@chrome\browser\web_applications\externally_managed_app_manager.cc:186
+[8932:27000:0603/181313.880:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for SynchronizeInstalledApps@chrome\browser\web_applications\externally_managed_app_manager.cc:186
+[8932:27000:0603/181313.880:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by SynchronizeInstalledApps@chrome\browser\web_applications\externally_managed_app_manager.cc:186
+[8932:27000:0603/181313.880:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for MaybeStartNext@chrome\browser\web_applications\externally_managed_app_manager.cc:271
+[8932:27000:0603/181313.880:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for MaybeStartNext@chrome\browser\web_applications\externally_managed_app_manager.cc:271
+[8932:27000:0603/181313.880:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by MaybeStartNext@chrome\browser\web_applications\externally_managed_app_manager.cc:271
+[8932:27000:0603/181313.880:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:318] Acquiring <PartitionedLockId>{id: 0x31, partition: 0} for ContinueSynchronization@chrome\browser\web_applications\externally_managed_app_manager.cc:736
+[8932:27000:0603/181313.880:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All locks acquired for ContinueSynchronization@chrome\browser\web_applications\externally_managed_app_manager.cc:736
+[8932:27000:0603/181313.880:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasing <PartitionedLockId>{id: 0x31, partition: 0} requested by ContinueSynchronization@chrome\browser\web_applications\externally_managed_app_manager.cc:736
+[8932:27000:0603/181313.882:VERBOSE1:components\device_event_log\device_event_log_impl.cc:204] [18:13:13.883] USB: USER: usb_service_win.cc:765 USB device added: path=\\?\usb#vid_0a12&pid_0001#6&12d9436c&0&12#{a5dcbf10-6530-11d2-901f-00c04fb951ed} vendor=2578 "", product=1 "CSR8510 A10", serial="", driver="BTHUSB", guid=3a7f04c1-2920-4939-a027-b81cd4045938
+[8932:27000:0603/181313.889:VERBOSE1:components\device_event_log\device_event_log_impl.cc:204] [18:13:13.889] USB: USER: usb_service_win.cc:765 USB device added: path=\\?\usb#vid_30fa&pid_0400#6&12d9436c&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed} vendor=12538 "", product=1024 "USB Optical Mouse ", serial="", driver="HidUsb", guid=1904ee53-317a-426d-a542-3faba8c5e62e
+[8932:27000:0603/181313.895:VERBOSE1:components\device_event_log\device_event_log_impl.cc:204] [18:13:13.896] USB: USER: usb_service_win.cc:765 USB device added: path=\\?\usb#vid_1a2c&pid_45ea#6&c1a2e2f&0&4#{a5dcbf10-6530-11d2-901f-00c04fb951ed} vendor=6700 "SEMICO", product=17898 "USB Keyboard", serial="", driver="usbccgp", guid=154a128c-2ebd-47a2-a5f5-1a71a9089551
+[8932:27540:0603/181313.895:VERBOSE1:net\dns\mdns_client_impl.cc:204] Sockets ready:9
+[8932:27000:0603/181313.897:VERBOSE1:components\device_event_log\device_event_log_impl.cc:204] [18:13:13.897] USB: USER: usb_service_win.cc:765 USB device added: path=\\?\usb#vid_18ec&pid_3399#6&c1a2e2f&0&1#{a5dcbf10-6530-11d2-901f-00c04fb951ed} vendor=6380 "ARKMICRO", product=13209 "USB2.0 PC CAMERA", serial="", driver="usbccgp", guid=dfc2557f-b4ab-4709-8906-a7767e0b0acf
+[8932:27000:0603/181313.906:VERBOSE1:components\device_event_log\device_event_log_impl.cc:204] [18:13:13.907] USB: USER: usb_service_win.cc:765 USB device added: path=\\?\usb#vid_1b3f&pid_2008#6&12d9436c&0&7#{a5dcbf10-6530-11d2-901f-00c04fb951ed} vendor=6975 "MUSIC-BOOST", product=8200 "Usb Microphone", serial="", driver="usbccgp", guid=ed921627-9a8c-4ab8-99ab-093977f988c9
+[8932:27000:0603/181313.908:VERBOSE1:components\device_event_log\device_event_log_impl.cc:204] [18:13:13.908] USB: USER: usb_service_win.cc:765 USB device added: path=\\?\usb#vid_232b&pid_a43c#ck8q080519#{a5dcbf10-6530-11d2-901f-00c04fb951ed} vendor=9003 "Pantum", product=42044 "P2500W-series", serial="CK8Q080519", driver="usbccgp", guid=664e3bd4-941a-4358-b8ec-e56c80dd5f3b
+[16724:28504:0603/181313.922:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'offscreendocument_main.js'
+[16724:28504:0603/181313.922:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'dasherSettingSchema.json'
+[16724:28504:0603/181313.924:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'service_worker_bin_prod.js'
+[16724:28504:0603/181313.924:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '128.png'
+[16724:28504:0603/181313.924:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/no/messages.json'
+[16724:28504:0603/181313.925:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/as/messages.json'
+[16724:28504:0603/181313.925:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hr/messages.json'
+[16724:28504:0603/181313.925:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/te/messages.json'
+[16724:28504:0603/181313.925:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/da/messages.json'
+[16724:28504:0603/181313.925:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/mr/messages.json'
+[16724:28504:0603/181313.925:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/lo/messages.json'
+[16724:28504:0603/181313.927:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/el/messages.json'
+[16724:28504:0603/181313.927:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ja/messages.json'
+[16724:28504:0603/181313.927:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/en_GB/messages.json'
+[23904:21472:0603/181313.927:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/'
+[16724:28504:0603/181313.927:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ms/messages.json'
+[23904:21472:0603/181313.927:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/bg/'
+[16724:28504:0603/181313.927:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hy/messages.json'
+[23904:21472:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/bg/messages.json'
+[16724:28504:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sr/messages.json'
+[16724:28504:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/es/messages.json'
+[23904:21472:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ca/'
+[16724:28504:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/eu/messages.json'
+[23904:21472:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ca/messages.json'
+[23904:21472:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/cs/'
+[16724:28504:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/my/messages.json'
+[23904:21472:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/cs/messages.json'
+[16724:28504:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zu/messages.json'
+[23904:21472:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/da/'
+[16724:28504:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ta/messages.json'
+[23904:21472:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/da/messages.json'
+[16724:28504:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sq/messages.json'
+[23904:21472:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/de/'
+[16724:28504:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ru/messages.json'
+[23904:21472:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/de/messages.json'
+[16724:28504:0603/181313.928:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ka/messages.json'
+[23904:21472:0603/181313.930:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/el/'
+[16724:28504:0603/181313.930:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fr_CA/messages.json'
+[23904:21472:0603/181313.930:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/el/messages.json'
+[16724:28504:0603/181313.930:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/en/messages.json'
+[23904:21472:0603/181313.930:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/en/'
+[16724:28504:0603/181313.930:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/am/messages.json'
+[23904:21472:0603/181313.930:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/en/messages.json'
+[16724:28504:0603/181313.930:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/en_CA/messages.json'
+[23904:21472:0603/181313.930:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/en_GB/'
+[16724:28504:0603/181313.931:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zh_TW/messages.json'
+[23904:21472:0603/181313.931:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/en_GB/messages.json'
+[16724:28504:0603/181313.931:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/km/messages.json'
+[16724:28504:0603/181313.931:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/uz/messages.json'
+[16724:28504:0603/181313.931:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ca/messages.json'
+[23904:21472:0603/181313.931:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/es/'
+[16724:28504:0603/181313.931:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/en_US/messages.json'
+[23904:21472:0603/181313.932:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/es/messages.json'
+[16724:28504:0603/181313.932:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hu/messages.json'
+[23904:21472:0603/181313.932:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/es_419/'
+[16724:28504:0603/181313.932:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/kn/messages.json'
+[23904:21472:0603/181313.934:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/es_419/messages.json'
+[16724:28504:0603/181313.934:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/vi/messages.json'
+[23904:21472:0603/181313.934:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/et/'
+[16724:28504:0603/181313.935:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pa/messages.json'
+[23904:21472:0603/181313.935:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/et/messages.json'
+[16724:28504:0603/181313.935:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fr/messages.json'
+[23904:21472:0603/181313.935:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fi/'
+[16724:28504:0603/181313.935:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fa/messages.json'
+[23904:21472:0603/181313.935:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fi/messages.json'
+[16724:28504:0603/181313.935:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/it/messages.json'
+[23904:21472:0603/181313.936:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fil/'
+[16724:28504:0603/181313.936:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/bn/messages.json'
+[23904:21472:0603/181313.936:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fil/messages.json'
+[16724:28504:0603/181313.936:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ro/messages.json'
+[23904:21472:0603/181313.936:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fr/'
+[16724:28504:0603/181313.937:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/kk/messages.json'
+[23904:21472:0603/181313.937:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fr/messages.json'
+[16724:28504:0603/181313.937:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sk/messages.json'
+[23904:21472:0603/181313.937:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hi/'
+[16724:28504:0603/181313.937:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/es_419/messages.json'
+[23904:21472:0603/181313.937:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hi/messages.json'
+[23904:21472:0603/181313.937:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hr/'
+[16724:28504:0603/181313.937:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/mn/messages.json'
+[16724:28504:0603/181313.937:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/si/messages.json'
+[23904:21472:0603/181313.937:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hr/messages.json'
+[23904:21472:0603/181313.938:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hu/'
+[16724:28504:0603/181313.938:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pt_PT/messages.json'
+[16724:28504:0603/181313.938:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/af/messages.json'
+[23904:21472:0603/181313.938:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hu/messages.json'
+[16724:28504:0603/181313.938:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ar/messages.json'
+[23904:21472:0603/181313.938:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/id/'
+[16724:28504:0603/181313.938:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/id/messages.json'
+[23904:21472:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/id/messages.json'
+[16724:28504:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zh_CN/messages.json'
+[23904:21472:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/it/'
+[16724:28504:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zh_HK/messages.json'
+[16724:28504:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/nl/messages.json'
+[23904:21472:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/it/messages.json'
+[16724:28504:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/cs/messages.json'
+[23904:21472:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ja/'
+[16724:28504:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/lv/messages.json'
+[23904:21472:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ja/messages.json'
+[16724:28504:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ko/messages.json'
+[23904:21472:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ko/'
+[16724:28504:0603/181313.939:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fil/messages.json'
+[23904:21472:0603/181313.940:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ko/messages.json'
+[16724:28504:0603/181313.940:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/bg/messages.json'
+[23904:21472:0603/181313.940:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/lt/'
+[16724:28504:0603/181313.940:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/et/messages.json'
+[23904:21472:0603/181313.941:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/lt/messages.json'
+[16724:28504:0603/181313.941:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/th/messages.json'
+[23904:21472:0603/181313.941:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/lv/'
+[16724:28504:0603/181313.941:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/gl/messages.json'
+[23904:21472:0603/181313.941:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/lv/messages.json'
+[16724:28504:0603/181313.941:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/lt/messages.json'
+[23904:21472:0603/181313.941:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/nb/'
+[16724:28504:0603/181313.941:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ur/messages.json'
+[23904:21472:0603/181313.941:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/nb/messages.json'
+[16724:28504:0603/181313.941:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/iw/messages.json'
+[23904:21472:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/nl/'
+[16724:28504:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/be/messages.json'
+[23904:21472:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/nl/messages.json'
+[16724:28504:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ml/messages.json'
+[23904:21472:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pl/'
+[16724:28504:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/hi/messages.json'
+[16724:28504:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/cy/messages.json'
+[23904:21472:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pl/messages.json'
+[23904:21472:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pt_BR/'
+[16724:28504:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ne/messages.json'
+[16724:28504:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/tr/messages.json'
+[23904:21472:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pt_BR/messages.json'
+[23904:21472:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pt_PT/'
+[16724:28504:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pl/messages.json'
+[16724:28504:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/gu/messages.json'
+[23904:21472:0603/181313.942:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pt_PT/messages.json'
+[16724:28504:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sw/messages.json'
+[23904:21472:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ro/'
+[16724:28504:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/fi/messages.json'
+[23904:21472:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ro/messages.json'
+[16724:28504:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/uk/messages.json'
+[16724:28504:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/de/messages.json'
+[23904:21472:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ru/'
+[16724:28504:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/mk/messages.json'
+[23904:21472:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/ru/messages.json'
+[23904:21472:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sk/'
+[16724:28504:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/is/messages.json'
+[16724:28504:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sl/messages.json'
+[23904:21472:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sk/messages.json'
+[23904:21472:0603/181313.943:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sl/'
+[16724:28504:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/or/messages.json'
+[23904:21472:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sl/messages.json'
+[16724:28504:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/pt_BR/messages.json'
+[23904:21472:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sr/'
+[16724:28504:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sv/messages.json'
+[23904:21472:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sr/messages.json'
+[16724:28504:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/az/messages.json'
+[23904:21472:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sv/'
+[16724:28504:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'offscreendocument.html'
+[23904:21472:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/sv/messages.json'
+[16724:28504:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'page_embed_script.js'
+[23904:21472:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/th/'
+[23904:21472:0603/181313.945:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/th/messages.json'
+[23904:21472:0603/181313.946:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/tr/'
+[23904:21472:0603/181313.946:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/tr/messages.json'
+[23904:21472:0603/181313.946:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/uk/'
+[23904:21472:0603/181313.946:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/uk/messages.json'
+[23904:21472:0603/181313.947:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/vi/'
+[23904:21472:0603/181313.947:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/vi/messages.json'
+[23904:21472:0603/181313.948:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zh_CN/'
+[23904:21472:0603/181313.948:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zh_CN/messages.json'
+[23904:21472:0603/181313.948:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zh_TW/'
+[23904:21472:0603/181313.948:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_locales/zh_TW/messages.json'
+[23904:21472:0603/181313.948:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'craw_background.js'
+[23904:21472:0603/181313.948:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'craw_window.js'
+[23904:21472:0603/181313.948:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'css/'
+[23904:21472:0603/181313.949:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'css/craw_window.css'
+[23904:21472:0603/181313.949:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'html/'
+[23904:21472:0603/181313.949:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'html/craw_window.html'
+[23904:21472:0603/181313.949:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/'
+[23904:21472:0603/181313.950:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/flapper.gif'
+[23904:21472:0603/181313.950:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/icon_128.png'
+[23904:21472:0603/181313.950:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/icon_16.png'
+[23904:21472:0603/181313.951:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/topbar_floating_button.png'
+[23904:21472:0603/181313.951:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/topbar_floating_button_close.png'
+[23904:21472:0603/181313.951:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/topbar_floating_button_hover.png'
+[23904:21472:0603/181313.952:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/topbar_floating_button_maximize.png'
+[23904:21472:0603/181313.952:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'images/topbar_floating_button_pressed.png'
+[23904:21472:0603/181313.954:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_metadata/'
+[23904:21472:0603/181313.954:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry '_metadata/verified_contents.json'
+[1348:15572:0603/181313.985:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'manifest.json'
+[8932:27000:0603/181313.986:INFO:CONSOLE:4702] "AUTO-START: Triggering game start...", source: http://localhost:8080/app.js (4702)
+[7556:29772:0603/181313.986:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AC::AudioContext ({latency_hint=interactive}) [state=suspended sink_descriptor_=, sink_id_given_=false]
+[7556:29772:0603/181313.986:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=0}) [type=AudioDestinationNode, this=0x57340077D740]
+[7556:29772:0603/181313.986:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]RWADI::RendererWebAudioDeviceImpl
+[8932:27540:0603/181313.986:VERBOSE1:content\browser\renderer_host\media\media_stream_manager.cc:1515] RFAOSF::RequestDeviceAuthorization({device_id=}) [process_id=5, frame_id=1]
+[8932:27540:0603/181314.019:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+[8932:27540:0603/181314.054:VERBOSE1:content\browser\renderer_host\media\media_stream_manager.cc:1515] RFAOSF::AuthorizationCompleted({status=OK}, {params=format: PCM_LOW_LATENCY, channel_layout: 3, channels: 2, sample_rate: 48000, frames_per_buffer: 480, effects: NONE, mic_positions: , latency_tag: LatencyUnknown, hw_capabilities: min_frames_per_buffer: 480, max_frames_per_buffer: 480, bitstream_formats:0, require_encapsulation:0, require_audio_offload:0}, {device_id=default}) [process_id=5, frame_id=1]
+[8932:27540:0603/181314.054:VERBOSE1:content\browser\renderer_host\media\media_stream_manager.cc:1515] RFAOSF::AuthorizationCompleted => (authorization time=68 ms) [process_id=5, frame_id=1]
+[8932:27540:0603/181314.054:VERBOSE1:content\browser\renderer_host\media\media_stream_manager.cc:1515] AMB::LogAudioManagerStartup => AudioManager starts.
+[7556:29772:0603/181314.054:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]RWADI::RendererWebAudioDeviceImpl => (hardware_params=[format: PCM_LOW_LATENCY, channel_layout: 3, channels: 2, sample_rate: 48000, frames_per_buffer: 480, effects: NONE, mic_positions: , latency_tag: LatencyUnknown, hw_capabilities: min_frames_per_buffer: 480, max_frames_per_buffer: 480, bitstream_formats:0, require_encapsulation:0, require_audio_offload:0])
+[7556:29772:0603/181314.054:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]RWADI::RendererWebAudioDeviceImpl => (sink_params=[format: PCM_LOW_LATENCY, channel_layout: 3, channels: 2, sample_rate: 48000, frames_per_buffer: 480, effects: NONE, mic_positions: , latency_tag: LatencyInteractive])
+[7556:29772:0603/181314.054:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AD::AudioDestination ({output_channels=2}) [state=stopped]
+[7556:29772:0603/181314.054:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AD::AudioDestination => (FIFO size=16384 bytes) [state=stopped]
+[7556:29772:0603/181314.054:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AD::AudioDestination => (device callback buffer size=480 frames) [state=stopped]
+[7556:29772:0603/181314.054:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AD::AudioDestination => (device sample rate=48000 Hz) [state=stopped]
+[7556:29772:0603/181314.054:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AD::AudioDestination Output buffer bypass: yes [state=stopped]
+[7556:29772:0603/181314.054:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AD::AudioDestination => (no resampling: context sample rate set to 48000 Hz) [state=stopped]
+[7556:29772:0603/181314.055:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AC::AudioContext => (base latency=0.010 seconds)) [state=suspended sink_descriptor_=, sink_id_given_=false]
+[7556:29772:0603/181314.055:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=OscillatorNode, this=0x5734000BBD00]
+[7556:29772:0603/181314.055:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=GainNode, this=0x573400617530]
+[7556:29772:0603/181314.055:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=BiquadFilterNode, this=0x573401245400]
+[7556:29772:0603/181314.058:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:OscillatorNode, handler:0x5734000BBD00]} --> {input=[index:0, type:BiquadFilterNode, handler:0x573401245400]})
+[7556:29772:0603/181314.058:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:BiquadFilterNode, handler:0x573401245400]} --> {input=[index:0, type:GainNode, handler:0x573400617530]})
+[7556:29772:0603/181314.058:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:GainNode, handler:0x573400617530]} --> {input=[index:0, type:AudioDestinationNode, handler:0x57340077D740]})
+[8932:27000:0603/181314.058:INFO:CONSOLE:3993] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: http://localhost:8080/app.js (3993)
+[5564:4420:0603/181314.072:VERBOSE1:third_party\zlib\google\zip.cc:183] Skipped ZIP entry 'manifest.json'
+[8932:27000:0603/181314.088:INFO:CONSOLE:250] "DIAGNOSTIC: init3D holder client size is 754x238", source: http://localhost:8080/app.js (250)
+[8932:27000:0603/181314.307:VERBOSE1:extensions\browser\install_signer.cc:370] Got response: {
+  "protocol_version": 1,
+  "signature": "Y1FzYwvY52EG257sSpX0yB4bVVqXCbzW2wpjbBzAlhDg6dp8Xs2TYEppJZN2eoJlN25YFwtdR4HtD43yXdx3tQgGW6u5f6d+XjBMPPC/oHl5mY2ndemg/VrELOZzvVWXh0YNKHrh8u1Kyf2oFHmJUEVt7H0mBAjh5dcMAGFuvQLGcnosoReODKCwfCZUbvbitn7L12OWhTBhIZqVafrLlYbq4sqCqIUTSbyODruREPvby2xKi1J/V2h5eAT2TZToJ+cS42QbrhqnGl3KD8q24GUEET5EXc4vukiyhPUsOsWUxQ3aeStQK1NRp6S27IbmGDESect/3gMVbSf/myRC5g==",
+  "expiry": "2026-08-26",
+  "pubkey_sha1_hash": "a2159534e3753e716819beb8aae14b326927505a"
+}
+
+[8932:7432:0603/181314.382:VERBOSE1:net\disk_cache\simple\simple_index_file.cc:609] Simple Cache Index is being restored from disk.
+[8932:27000:0603/181314.383:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_service_delegate.cc:443] MutablePO2TS::RefreshTokenIsAvailable
+[8932:27000:0603/181314.386:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1469] RemoveKeepAlive(Default, kExtensionUpdater). keep_alives=[kBrowserWindow (1), kExtensionUpdater (2)]
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/bg/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ca/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/cs/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/da/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/de/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/el/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/en/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/en_GB/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/es/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/es_419/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/et/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/fi/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/fil/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/fr/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/hi/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/hr/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/hu/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/id/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/it/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ja/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ko/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/lt/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/lv/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/nb/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/nl/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/pl/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/pt_BR/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/pt_PT/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ro/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ru/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/sk/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/sl/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/sr/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/sv/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/th/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/tr/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/uk/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/vi/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/zh_CN/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/zh_TW/messages.json
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for images/icon_128.png
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for images/icon_16.png
+[8932:24600:0603/181314.415:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for manifest.json
+[8932:27540:0603/181314.416:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:944] OnFetchComplete nmmhkkegccagdldgiimedpiccmgmieda success:1
+[24068:3052:0603/181314.422:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 12
+[29000:4908:0603/181314.422:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 12
+[29000:4908:0603/181314.447:VERBOSE1:extensions\renderer\script_context.cc:150] Created context:
+  extension id:           nmmhkkegccagdldgiimedpiccmgmieda
+  frame:                  0x8ec020304e8
+  URL:                    
+  context_type:           BLESSED_EXTENSION
+  effective extension id: nmmhkkegccagdldgiimedpiccmgmieda
+  effective context type: BLESSED_EXTENSION
+[29000:4908:0603/181314.447:VERBOSE1:extensions\renderer\script_context.cc:150] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[29000:4908:0603/181314.455:VERBOSE1:extensions\renderer\dispatcher.cc:493] Num tracked contexts: 1
+[8932:12920:0603/181314.457:VERBOSE1:content\browser\loader\file_url_loader_factory.cc:474] FileURLLoader::Start: file:///C:/Users/m3615/samosbor_game/scratch/chrome_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_2/craw_background.js
+[8932:27000:0603/181314.463:VERBOSE1:extensions\browser\install_signer.cc:349] Sending request: {"hash":"91UN6X8/JJCOFho1deQPdaPXaTcUG9cc4/qeZ4/HPWA=","ids":["ghbmnnjooekpmoecnnnilnnbdlolhkhi","oombnmpbbhbakfpfgdflaajkhicgfaam"],"protocol_version":1}
+[4180:360:0603/181314.463:VERBOSE1:net\base\network_delegate.cc:38] NetworkDelegate::NotifyBeforeURLRequest: https://www.googleapis.com/chromewebstore/v1.1/items/verify
+[4180:360:0603/181314.465:VERBOSE1:net\third_party\quiche\src\quiche\quic\core\tls_handshaker.cc:109] TlsClient: Continuing handshake
+[8932:27000:0603/181314.465:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1469] RemoveKeepAlive(Default, kExtensionUpdater). keep_alives=[kBrowserWindow (1), kExtensionUpdater (1)]
+[8932:27540:0603/181314.465:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:944] OnFetchComplete nmmhkkegccagdldgiimedpiccmgmieda success:1
+[8932:27000:0603/181314.466:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1469] RemoveKeepAlive(Default, kExtensionUpdater). keep_alives=[kBrowserWindow (1)]
+[6116:11560:0603/181314.504:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 12
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for 128.png
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/af/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/am/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ar/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/az/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/bg/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/bn/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ca/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/cs/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/da/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/de/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/el/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/en/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/en_CA/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/en_GB/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/en_US/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/es/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/es_419/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/et/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/fa/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/fi/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/fil/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/fr/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/fr_CA/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/gu/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/hi/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/hr/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/hu/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/id/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/it/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ja/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/kk/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/kn/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ko/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/lt/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/lv/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ml/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/mr/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ms/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/nl/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/no/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/pl/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/pt_BR/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/pt_PT/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ro/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ru/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/sk/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/sl/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/sr/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/sv/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/sw/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ta/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/te/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/th/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/tr/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/uk/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/ur/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/uz/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/vi/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/zh_CN/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for _locales/zh_TW/messages.json
+[8932:24600:0603/181314.508:VERBOSE1:extensions\browser\content_verifier\content_hash.cc:397] content mismatch for manifest.json
+[6116:13296:0603/181314.524:VERBOSE1:extensions\renderer\script_context.cc:150] Created context:
+  extension id:           ghbmnnjooekpmoecnnnilnnbdlolhkhi
+  frame:                  (nil)
+  URL:                    
+  context_type:           BLESSED_EXTENSION
+  effective extension id: ghbmnnjooekpmoecnnnilnnbdlolhkhi
+  effective context type: BLESSED_EXTENSION
+[6116:13296:0603/181314.524:VERBOSE1:extensions\renderer\script_context.cc:150] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[8932:27540:0603/181314.529:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:944] OnFetchComplete ghbmnnjooekpmoecnnnilnnbdlolhkhi success:1
+[8932:27000:0603/181314.567:VERBOSE1:extensions\browser\install_signer.cc:370] Got response: {
+  "protocol_version": 1,
+  "signature": "IAcET0zuUqUWsmOTEhM4WsOFLTkaY7hM89rcT/GTPKTqnqNYqc7ilfLYzwrYqlOzAJXyXrIm7lr97yaAHG669T+CD5VXDrTRqz2fFenUJCrAInvDFzIDHED9SM/00g4t3ZL2xjtoaYO50AFRtzwE1zl3w2DfP4eXdotILhlCjjyRMRMg0dYWywElQCNxqEN5cdWuWyAcmTBLwpqdFItbG0GNDwWnJmyxy0cHllDgB0cmVaBEUs8mX2SaEqEeZpY4BhbN0Bz9kspDDABFdGYkicQyKQ+jUEwj1M9R12wiMO5+y3Sj7LnWaEO7KGB6MjD8UFYAFWNjxKOIBtcFB2+OjA==",
+  "expiry": "2026-08-26",
+  "pubkey_sha1_hash": "a2159534e3753e716819beb8aae14b326927505a"
+}
+
+[7556:29772:0603/181315.803:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=OscillatorNode, this=0x5734012B5500]
+[7556:29772:0603/181315.803:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=GainNode, this=0x5734024D5FE0]
+[7556:29772:0603/181315.803:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:OscillatorNode, handler:0x5734012B5500]} --> {input=[index:0, type:GainNode, handler:0x5734024D5FE0]})
+[7556:29772:0603/181315.803:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:GainNode, handler:0x5734024D5FE0]} --> {input=[index:0, type:AudioDestinationNode, handler:0x57340077D740]})
+[8932:27000:0603/181315.803:INFO:CONSOLE:4027] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: http://localhost:8080/app.js (4027)
+[8932:27000:0603/181315.803:INFO:CONSOLE:1] "Uncaught (in promise) Error: No parent to post message", source: https://yandex.ru/games/sdk/v2 (1)
+[8932:27000:0603/181315.803:INFO:CONSOLE:1] "Uncaught (in promise) Error: No parent to post message", source: https://yandex.ru/games/sdk/v2 (1)
+[7556:29772:0603/181316.076:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=OscillatorNode, this=0x5734012B6400]
+[7556:29772:0603/181316.076:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=GainNode, this=0x5734024D8FD0]
+[7556:29772:0603/181316.076:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:OscillatorNode, handler:0x5734012B6400]} --> {input=[index:0, type:GainNode, handler:0x5734024D8FD0]})
+[7556:29772:0603/181316.076:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:GainNode, handler:0x5734024D8FD0]} --> {input=[index:0, type:AudioDestinationNode, handler:0x57340077D740]})
+[8932:27000:0603/181316.076:INFO:CONSOLE:4027] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: http://localhost:8080/app.js (4027)
+[7556:29772:0603/181316.481:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=OscillatorNode, this=0x5734000BA500]
+[7556:29772:0603/181316.481:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=GainNode, this=0x5734006199C0]
+[7556:29772:0603/181316.481:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:OscillatorNode, handler:0x5734000BA500]} --> {input=[index:0, type:GainNode, handler:0x5734006199C0]})
+[7556:29772:0603/181316.481:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:GainNode, handler:0x5734006199C0]} --> {input=[index:0, type:AudioDestinationNode, handler:0x57340077D740]})
+[8932:27000:0603/181316.483:INFO:CONSOLE:4027] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: http://localhost:8080/app.js (4027)
+[7556:29772:0603/181316.745:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=OscillatorNode, this=0x5734000B6180]
+[7556:29772:0603/181316.745:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=GainNode, this=0x5734024D15F0]
+[7556:29772:0603/181316.745:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:OscillatorNode, handler:0x5734000B6180]} --> {input=[index:0, type:GainNode, handler:0x5734024D15F0]})
+[7556:29772:0603/181316.745:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:GainNode, handler:0x5734024D15F0]} --> {input=[index:0, type:AudioDestinationNode, handler:0x57340077D740]})
+[8932:27000:0603/181316.745:INFO:CONSOLE:4027] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: http://localhost:8080/app.js (4027)
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:226] GetCachedModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_CHROME_LOW_USER_ENGAGEMENT does not have a segment info.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:172] OnGotModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_CHROME_LOW_USER_ENGAGEMENT failed to get score from database, executing server model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:277] ExecuteModelAndGetScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_CHROME_LOW_USER_ENGAGEMENT server segment info not available
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:201] OnGotModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_CHROME_LOW_USER_ENGAGEMENT failed to get score from executing server model, getting score from default model from db.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:240] GetCachedModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_CHROME_LOW_USER_ENGAGEMENT has expired or unavailable result.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:210] OnGotModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_CHROME_LOW_USER_ENGAGEMENT failed to get database model score, trying default model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:295] ExecuteModelAndGetScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_CHROME_LOW_USER_ENGAGEMENT signal collection not met
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:226] GetCachedModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_SEARCH_USER does not have a segment info.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:172] OnGotModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_SEARCH_USER failed to get score from database, executing server model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:277] ExecuteModelAndGetScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_SEARCH_USER server segment info not available
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:201] OnGotModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_SEARCH_USER failed to get score from executing server model, getting score from default model from db.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:240] GetCachedModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_SEARCH_USER has expired or unavailable result.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:210] OnGotModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_SEARCH_USER failed to get database model score, trying default model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:295] ExecuteModelAndGetScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_SEARCH_USER signal collection not met
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:226] GetCachedModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_SHOPPING_USER does not have a segment info.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:172] OnGotModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_SHOPPING_USER failed to get score from database, executing server model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:277] ExecuteModelAndGetScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_SHOPPING_USER server segment info not available
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:201] OnGotModelScore: segment=OPTIMIZATION_TARGET_SEGMENTATION_SHOPPING_USER failed to get score from executing server model, getting score from default model from db.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:252] GetCachedModelScore: Retrieved prediction from database: PredictionResult: timestamp: 13424972843560069 result 0: 0 for segment OPTIMIZATION_TARGET_SEGMENTATION_SHOPPING_USER
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:29] ComputeDiscreteMapping: segment=: result=0, rank=0
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:226] GetCachedModelScore: segment=CROSS_DEVICE_USER_SEGMENT does not have a segment info.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:172] OnGotModelScore: segment=CROSS_DEVICE_USER_SEGMENT failed to get score from database, executing server model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:277] ExecuteModelAndGetScore: segment=CROSS_DEVICE_USER_SEGMENT server segment info not available
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:201] OnGotModelScore: segment=CROSS_DEVICE_USER_SEGMENT failed to get score from executing server model, getting score from default model from db.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:240] GetCachedModelScore: segment=CROSS_DEVICE_USER_SEGMENT has expired or unavailable result.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:210] OnGotModelScore: segment=CROSS_DEVICE_USER_SEGMENT failed to get database model score, trying default model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:295] ExecuteModelAndGetScore: segment=CROSS_DEVICE_USER_SEGMENT signal collection not met
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:226] GetCachedModelScore: segment=RESUME_HEAVY_USER_SEGMENT does not have a segment info.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:172] OnGotModelScore: segment=RESUME_HEAVY_USER_SEGMENT failed to get score from database, executing server model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:277] ExecuteModelAndGetScore: segment=RESUME_HEAVY_USER_SEGMENT server segment info not available
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:201] OnGotModelScore: segment=RESUME_HEAVY_USER_SEGMENT failed to get score from executing server model, getting score from default model from db.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:240] GetCachedModelScore: segment=RESUME_HEAVY_USER_SEGMENT has expired or unavailable result.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:210] OnGotModelScore: segment=RESUME_HEAVY_USER_SEGMENT failed to get database model score, trying default model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:295] ExecuteModelAndGetScore: segment=RESUME_HEAVY_USER_SEGMENT signal collection not met
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:226] GetCachedModelScore: segment=PASSWORD_MANAGER_USER does not have a segment info.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:172] OnGotModelScore: segment=PASSWORD_MANAGER_USER failed to get score from database, executing server model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:277] ExecuteModelAndGetScore: segment=PASSWORD_MANAGER_USER server segment info not available
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:201] OnGotModelScore: segment=PASSWORD_MANAGER_USER failed to get score from executing server model, getting score from default model from db.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:240] GetCachedModelScore: segment=PASSWORD_MANAGER_USER has expired or unavailable result.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:210] OnGotModelScore: segment=PASSWORD_MANAGER_USER failed to get database model score, trying default model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:295] ExecuteModelAndGetScore: segment=PASSWORD_MANAGER_USER signal collection not met
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:226] GetCachedModelScore: segment=CHROME_USER_ENGAGEMENT does not have a segment info.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:172] OnGotModelScore: segment=CHROME_USER_ENGAGEMENT failed to get score from database, executing server model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:277] ExecuteModelAndGetScore: segment=CHROME_USER_ENGAGEMENT server segment info not available
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:201] OnGotModelScore: segment=CHROME_USER_ENGAGEMENT failed to get score from executing server model, getting score from default model from db.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:240] GetCachedModelScore: segment=CHROME_USER_ENGAGEMENT has expired or unavailable result.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:210] OnGotModelScore: segment=CHROME_USER_ENGAGEMENT failed to get database model score, trying default model.
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\selection\segment_result_provider.cc:295] ExecuteModelAndGetScore: segment=CHROME_USER_ENGAGEMENT signal collection not met
+[8932:27000:0603/181316.872:VERBOSE1:components\segmentation_platform\internal\database\cached_result_writer.cc:30] CachedResultWriter updating prefs with new result: PredictionResult: timestamp: 13424972843560069 result 0: 0 for segmentation key: shopping_user
+[7556:29772:0603/181317.678:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=OscillatorNode, this=0x5734012B5C80]
+[7556:29772:0603/181317.678:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=GainNode, this=0x573400617FC0]
+[7556:29772:0603/181317.679:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:OscillatorNode, handler:0x5734012B5C80]} --> {input=[index:0, type:GainNode, handler:0x573400617FC0]})
+[7556:29772:0603/181317.679:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:GainNode, handler:0x573400617FC0]} --> {input=[index:0, type:AudioDestinationNode, handler:0x57340077D740]})
+[8932:27000:0603/181317.679:INFO:CONSOLE:4027] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: http://localhost:8080/app.js (4027)
+[7556:29772:0603/181317.930:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=OscillatorNode, this=0x5734000BAF80]
+[7556:29772:0603/181317.930:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AH::AudioHandler ({sample_rate=48000}) [type=GainNode, this=0x5734006128D0]
+[7556:29772:0603/181317.931:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:OscillatorNode, handler:0x5734000BAF80]} --> {input=[index:0, type:GainNode, handler:0x5734006128D0]})
+[7556:29772:0603/181317.931:VERBOSE1:third_party\blink\renderer\platform\webrtc\webrtc_logging.cc:35] [WA]AN::connect ({output=[index:0, type:GainNode, handler:0x5734006128D0]} --> {input=[index:0, type:AudioDestinationNode, handler:0x57340077D740]})
+[8932:27000:0603/181317.931:INFO:CONSOLE:4027] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: http://localhost:8080/app.js (4027)
+[22748:23984:0603/181318.592:VERBOSE1:extensions\renderer\script_context.cc:163] Destroyed context for extension
+  extension id: fignfifoniblkonapihmkfakmlgkbkcf
+  effective extension id: fignfifoniblkonapihmkfakmlgkbkcf
+[22748:23984:0603/181318.592:VERBOSE1:extensions\renderer\script_context.cc:163] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[7556:29772:0603/181318.594:ERROR:gpu\ipc\client\command_buffer_proxy_impl.cc:488] GPU state invalid after WaitForGetOffsetInRange.
