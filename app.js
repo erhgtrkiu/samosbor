@@ -1790,6 +1790,346 @@ function restartGame() {
     startGameLoop();
 }
 
+// --- АУДИОДВИЖОК (WEB AUDIO API SYNTHESIZER) ---
+let audioCtx = null;
+let atmosphereOsc = null;
+let atmosphereGain = null;
+let alarmInterval = null;
+let heartbeatInterval = null;
+
+function initAudio() {
+    if (state.audioInit) return;
+    try {
+        const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+        audioCtx = new AudioContextClass();
+        state.audioInit = true;
+        
+        // Запуск фонового гула и пульса
+        startAtmosphere();
+        startHeartbeatLoop();
+        logToConsole("Аудиосистема шлема ликвидатора инициализирована.", "sys");
+    } catch (e) {
+        console.error("Не удалось запустить Web Audio API: ", e);
+    }
+}
+
+function startAtmosphere() {
+    if (!audioCtx) return;
+    try {
+        atmosphereOsc = audioCtx.createOscillator();
+        atmosphereGain = audioCtx.createGain();
+        const filter = audioCtx.createBiquadFilter();
+        
+        atmosphereOsc.type = 'sawtooth';
+        atmosphereOsc.frequency.value = 55; // Низкая нота Ля (A1)
+        
+        filter.type = 'lowpass';
+        filter.frequency.value = 80;
+        
+        atmosphereGain.gain.value = 0.05;
+        
+        atmosphereOsc.connect(filter);
+        filter.connect(atmosphereGain);
+        atmosphereGain.connect(audioCtx.destination);
+        
+        atmosphereOsc.start();
+    } catch (e) {
+        console.error("Failed to start atmosphere sound:", e);
+    }
+}
+
+function startHeartbeatLoop() {
+    if (!audioCtx) return;
+    heartbeatInterval = setInterval(() => {
+        // Удары сердца: двойной тук
+        playThump(60, 0.15);
+        setTimeout(() => {
+            playThump(55, 0.15);
+        }, 250);
+    }, 1200);
+}
+
+function playThump(freq, duration) {
+    if (!audioCtx) return;
+    try {
+        const now = audioCtx.currentTime;
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(freq, now);
+        osc.frequency.exponentialRampToValueAtTime(10, now + duration);
+        
+        gain.gain.setValueAtTime(0.18, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
+        
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        
+        osc.start(now);
+        osc.stop(now + duration);
+    } catch (e) {}
+}
+
+function playSoundMonsterHiss() {
+    if (!audioCtx) return;
+    try {
+        const now = audioCtx.currentTime;
+        const bufferSize = audioCtx.sampleRate * 1.5;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) {
+            data[i] = Math.random() * 2 - 1;
+        }
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'bandpass';
+        filter.frequency.setValueAtTime(1000, now);
+        filter.frequency.exponentialRampToValueAtTime(120, now + 1.5);
+        
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.15, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 1.5);
+        
+        noise.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+        
+        noise.start(now);
+        noise.stop(now + 1.5);
+    } catch (e) {}
+}
+
+function playSoundDoor(isSlam = false) {
+    if (!audioCtx) return;
+    try {
+        const now = audioCtx.currentTime;
+        const duration = isSlam ? 0.6 : 1.2;
+        
+        // Шум трения гермозатвора
+        const bufferSize = audioCtx.sampleRate * duration;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) {
+            data[i] = Math.random() * 2 - 1;
+        }
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'bandpass';
+        filter.frequency.setValueAtTime(isSlam ? 180 : 320, now);
+        filter.Q.value = 2.0;
+        
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(isSlam ? 0.22 : 0.08, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
+        
+        noise.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+        
+        noise.start(now);
+        noise.stop(now + duration);
+        
+        if (isSlam) {
+            // Низкий удар при закрытии гермодвери
+            const osc = audioCtx.createOscillator();
+            const oscGain = audioCtx.createGain();
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(80, now);
+            osc.frequency.linearRampToValueAtTime(20, now + 0.4);
+            
+            oscGain.gain.setValueAtTime(0.3, now);
+            oscGain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+            
+            osc.connect(oscGain);
+            oscGain.connect(audioCtx.destination);
+            osc.start(now);
+            osc.stop(now + 0.4);
+        }
+    } catch (e) {}
+}
+
+function playSoundLoot() {
+    if (!audioCtx) return;
+    try {
+        const now = audioCtx.currentTime;
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(440, now);
+        osc.frequency.setValueAtTime(880, now + 0.08);
+        
+        gain.gain.setValueAtTime(0.08, now);
+        gain.gain.linearRampToValueAtTime(0.08, now + 0.08);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.22);
+        
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        
+        osc.start(now);
+        osc.stop(now + 0.25);
+    } catch (e) {}
+}
+
+function playSoundMask() {
+    if (!audioCtx) return;
+    try {
+        const now = audioCtx.currentTime;
+        const bufferSize = audioCtx.sampleRate * 0.8;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) {
+            data[i] = Math.random() * 2 - 1;
+        }
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'bandpass';
+        filter.frequency.setValueAtTime(200, now);
+        filter.frequency.linearRampToValueAtTime(600, now + 0.4);
+        filter.frequency.linearRampToValueAtTime(150, now + 0.8);
+        
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.08, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.8);
+        
+        noise.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+        
+        noise.start(now);
+        noise.stop(now + 0.8);
+    } catch (e) {}
+}
+
+function playSoundDrink() {
+    if (!audioCtx) return;
+    try {
+        const now = audioCtx.currentTime;
+        for (let i = 0; i < 3; i++) {
+            const time = now + i * 0.22;
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(220, time);
+            osc.frequency.exponentialRampToValueAtTime(120, time + 0.12);
+            
+            gain.gain.setValueAtTime(0.12, time);
+            gain.gain.exponentialRampToValueAtTime(0.001, time + 0.12);
+            
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            
+            osc.start(time);
+            osc.stop(time + 0.18);
+        }
+    } catch (e) {}
+}
+
+function playSoundShot() {
+    if (!audioCtx) return;
+    try {
+        const now = audioCtx.currentTime;
+        
+        // Шум пороховых газов
+        const bufferSize = audioCtx.sampleRate * 0.5;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) {
+            data[i] = Math.random() * 2 - 1;
+        }
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'lowpass';
+        filter.frequency.value = 1200;
+        
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.8, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        
+        noise.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+        
+        noise.start(now);
+        noise.stop(now + 0.5);
+        
+        // Низкий хлопок выстрела
+        const osc = audioCtx.createOscillator();
+        const oscGain = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(140, now);
+        osc.frequency.linearRampToValueAtTime(30, now + 0.25);
+        
+        oscGain.gain.setValueAtTime(0.6, now);
+        oscGain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+        
+        osc.connect(oscGain);
+        oscGain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.35);
+    } catch (e) {}
+}
+
+function startSoundSiren() {
+    if (!audioCtx) return;
+    try {
+        stopSoundSiren();
+        
+        const sirenFunc = () => {
+            if (!audioCtx || !state.samosborStatus || state.samosborStatus === 'normal') return;
+            const now = audioCtx.currentTime;
+            const osc1 = audioCtx.createOscillator();
+            const osc2 = audioCtx.createOscillator();
+            const gainNode = audioCtx.createGain();
+            
+            osc1.type = 'sawtooth';
+            osc2.type = 'sine';
+            
+            osc1.frequency.setValueAtTime(280, now);
+            osc1.frequency.linearRampToValueAtTime(380, now + 0.7);
+            osc1.frequency.linearRampToValueAtTime(280, now + 1.4);
+            
+            osc2.frequency.setValueAtTime(285, now);
+            osc2.frequency.linearRampToValueAtTime(385, now + 0.7);
+            osc2.frequency.linearRampToValueAtTime(285, now + 1.4);
+            
+            gainNode.gain.setValueAtTime(0.01, now);
+            gainNode.gain.linearRampToValueAtTime(0.12, now + 0.2);
+            gainNode.gain.linearRampToValueAtTime(0.12, now + 1.2);
+            gainNode.gain.exponentialRampToValueAtTime(0.001, now + 1.5);
+            
+            osc1.connect(gainNode);
+            osc2.connect(gainNode);
+            gainNode.connect(audioCtx.destination);
+            
+            osc1.start(now);
+            osc2.start(now);
+            osc1.stop(now + 1.5);
+            osc2.stop(now + 1.5);
+        };
+        
+        sirenFunc();
+        alarmInterval = setInterval(sirenFunc, 1600);
+    } catch (e) {}
+}
+
+function stopSoundSiren() {
+    if (alarmInterval) {
+        clearInterval(alarmInterval);
+        alarmInterval = null;
+    }
+}
+
 // --- ИНТЕГРАЦИЯ YANDEX GAMES SDK ---
 let ysdk = null;
 
